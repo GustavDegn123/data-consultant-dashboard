@@ -1,0 +1,1001 @@
+﻿Product_Family,Product_Family_Id,Product_Group,Product_Group_id,Product_Name,Product_Name_id,Product_Size,Produt_Type
+Cucurbitaceae,1051,Gray's Bur Cucumber,3293,Chamaesyce celastroides (Boiss.) Croizat & O. Deg. var. celastroides,2000,Small,Landscape
+Platanaceae,1138,Arizona Sycamore,3658,Tetraplasandra waimeae Wawra,2001,Medium,Outdoor
+Scrophulariaceae,1167,Little Elephantshead,3876,Iris √ónelsonii Randolph,2002,Small,Outdoor
+Euphorbiaceae,1065,'ekoko,3357,Acanthus L.,2003,Large,Outdoor
+Amaranthaceae,1006,Philoxerus,3017,Aplectrum hyemale (Muhl. ex Willd.) Torr.,2004,Medium,Landscape
+Asteraceae,1020,Greene's Hawkweed,3095,Parkia bicolor A. Chev.,2005,Medium,Indoor
+Thelypteridaceae,1180,Resinous Maiden Fern,3913,Oryza glaberrima Steud.,2006,Small,Landscape
+Poaceae,1140,Mission Grass,3691,Agapanthus L'H√©r.,2007,Medium,Outdoor
+Rosaceae,1160,Albertville Hawthorn,3797,Agave L.,2008,Medium,Indoor
+Caprifoliaceae,1038,Possumhaw,3243,Neofuscelia ahtii (Essl.) Essl.,2009,Large,Outdoor
+Fabaceae,1066,Longstalk Clover,3403,Scutellaria alabamensis Alexander,2010,Large,Landscape
+Pertusariaceae,1133,Wulfen's Pore Lichen,3647,Viola wailenalenae (Rock) Skottsb.,2011,Large,Landscape
+Asteraceae,1020,Spotted Joe Pye Weed,3137,Crataegus mendosa Beadle,2012,Large,Outdoor
+Agavaceae,1003,Redflower False Yucca,3013,Plantago princeps Cham. & Schltdl.,2013,Medium,Indoor
+Poaceae,1140,Greenland Alkaligrass,3683,Lathyrus vestitus Nutt. ssp. alefeldii (T.G. White) Broich,2014,Medium,Outdoor
+Poaceae,1140,Church's Wildrye,3672,Draba aleutica Ekman ex Hult√©n,2015,Medium,Indoor
+Iridaceae,1088,Annual Blue-eyed Grass,3482,Lomatium caruifolium (Hook. & Arn.) J.M. Coult. & Rose var. denticulatum (Jeps.) Jeps.,2016,Medium,Outdoor
+Verbenaceae,1189,Tuberous Vervain,3932,Boykinia aconitifolia Nutt.,2017,Large,Indoor
+Fabaceae,1066,Utah Sweetvetch,3430,Mimulus ringens L. var. colpophilus Fernald,2018,Large,Indoor
+Salicaceae,1164,Greenscale Willow,3852,Astragalus alpinus L. var. alpinus,2019,Medium,Indoor
+Fabaceae,1066,Cima Milkvetch,3382,Alyssum simplex Rudolphi,2020,Medium,Landscape
+Fabaceae,1066,Argentine Screwbean,3371,Carissa macrocarpa (Eckl.) A. DC.,2021,Small,Landscape
+Polypodiaceae,1144,Resurrection Fern,3753,Leptochloa panicoides (J. Presl) Hitchc.,2022,Large,Landscape
+Fabaceae,1066,Alpine Milkvetch,3368,Amblystegium varium (Hedw.) Lindb.,2023,Large,Landscape
+Rosaceae,1160,Desert Rose,3806,Sambucus nigra L. ssp. canadensis (L.) R. Bolli,2024,Small,Indoor
+Polygonaceae,1143,Reveal's Buckwheat,3745,"Phragmites australis (Cav.) Trin. ex Steud. ssp. americanus Saltonst., P.M. Peterson & Soreng",2025,Medium,Landscape
+Garryaceae,1070,Eggleaf Silktassel,3447,Aneilema R. Br.,2026,Small,Landscape
+Cyperaceae,1053,Manyspike Flatsedge,3314,Aniba Aubl.,2027,Small,Outdoor
+Ophioglossaceae,1124,Little Grapefern,3608,Sisyrinchium rosulatum E.P. Bicknell,2028,Large,Landscape
+Rosaceae,1160,Shinyleaf Meadowsweet,3824,Eriogonum annuum Nutt.,2029,Large,Landscape
+Gentianaceae,1071,Autumn Dwarf Gentian,3448,Lipochaeta remyi A. Gray,2030,Large,Outdoor
+Cyperaceae,1053,Sedge,3319,Phlox drummondii Hook.,2031,Small,Indoor
+Marattiaceae,1109,Smooth Potato Fern,3564,Anthracothecium Hampe ex A. Massal.,2032,Large,Indoor
+Salicaceae,1164,Diamondleaf Willow,3850,Silene uralensis (Rupr.) Bocquet ssp. attenuata (Farr) McNeill,2033,Medium,Landscape
+Grimmiaceae,1076,Grimmia Dry Rock Moss,3457,Astragalus obscurus S. Watson,2034,Medium,Landscape
+Grimmiaceae,1076,Grimmia Dry Rock Moss,3457,Oxytropis arctica R. Br.,2035,Small,Outdoor
+Hydrophyllaceae,1083,Tricardia,3476,Salix arctica Pall.,2036,Medium,Indoor
+Grimmiaceae,1076,Grimmia Dry Rock Moss,3457,Prosopis strombulifera (Lam.) Benth.,2037,Medium,Landscape
+Rosaceae,1160,Catalina Island Mountain Mahogany,3802,Alnus oblongifolia Torr.,2038,Large,Indoor
+Asteraceae,1020,Sneezeweed,3136,Myosurus cupulatus S. Watson,2039,Small,Landscape
+Asteraceae,1020,Awapa Fleabane,3059,Senecio arizonicus Greene,2040,Large,Landscape
+Poaceae,1140,Skeletongrass,3710,Pleopeltis thyssanolepis (A. Braun ex Klotzsch) Andrews & Windham [excluded],2041,Large,Outdoor
+Roccellaceae,1159,Reinkella Lichen,3795,Platanus wrightii S. Watson,2042,Large,Landscape
+Asteraceae,1020,Spotted Knapweed,3138,Ivesia arizonica (Eastw. ex J.T. Howell) Ertter var. arizonica,2043,Small,Indoor
+Caryophyllaceae,1039,Awl-leaf Pearlwort,3246,Aphanostephus skirrhobasis (DC.) Trel. var. kidderi (S.F. Blake) B.L. Turner,2044,Medium,Landscape
+Malpighiaceae,1106,Azotacaballo,3553,Balsamorhiza sagittata (Pursh) Nutt.,2045,Large,Indoor
+Gesneriaceae,1072,Windyridge Cyrtandra,3452,Arthothelium pruinascens Zahlbr.,2046,Small,Indoor
+Onagraceae,1122,Wingleaf Primrose-willow,3604,Pilea trianthemoides (Sw.) Lindl.,2047,Large,Outdoor
+Parmeliaceae,1129,Parmelinopsis,3641,Fraxinus L.,2048,Small,Outdoor
+Hydrocharitaceae,1082,Nechamandra,3464,Linum austriacum L.,2049,Large,Outdoor
+Gentianaceae,1071,Catchfly Prairie Gentian,3449,Betula platyphylla Sukaczev var. platyphylla,2050,Large,Outdoor
+Polemoniaceae,1141,Skypilot,3729,Atrichum altecristatum (Renauld & Cardot) Smyth & Smyth,2051,Small,Outdoor
+Icacinaceae,1087,Palo De Cana,3480,Pisonia brunoniana Endl.,2052,Large,Outdoor
+Onagraceae,1122,Farewell To Spring,3598,Cyperus trinervis R. Br.,2053,Small,Landscape
+Polemoniaceae,1141,Phlox,3727,Corallorhiza odontorhiza (Willd.) Poir. var. odontorhiza,2054,Large,Indoor
+Poaceae,1140,Kamanomano,3688,Gentianella amarella (L.) B√∂rner,2055,Large,Outdoor
+Hydrophyllaceae,1083,Baby Blue Eyes,3467,Erigeron awapensis S.L. Welsh,2056,Medium,Indoor
+Dicranaceae,1055,Dicranella Moss,3327,Sagina subulata (Sw.) C. Presl,2057,Medium,Outdoor
+Brassicaceae,1027,Newberry's Twinpod,3197,Malpighia coccigera L.,2058,Large,Outdoor
+Myrtaceae,1117,Large-leaf Yellow Teatree,3575,Nemophila Nutt.,2059,Medium,Outdoor
+Rosaceae,1160,Toringo Crab,3829,Correa backhousiana Hook.,2060,Large,Landscape
+Asteraceae,1020,Eaton's Fleabane,3080,Platonia esculenta (Arruda) Rickett & Stafleu,2061,Medium,Landscape
+Lamiaceae,1091,Reverchon's False Pennyroyal,3501,Paspalum notatum Fluegg√© var. saurae Parodi,2062,Small,Indoor
+Dicranaceae,1055,Dicranum Moss,3328,Paronychia baldwinii (Torr. & A. Gray) Fenzl ex Walp. ssp. baldwinii,2063,Small,Indoor
+Lamiaceae,1091,Feather River Monardella,3494,Eleocharis baldwinii (Torr.) Chapm.,2064,Large,Landscape
+Chenopodiaceae,1041,Valley Saltbush,3267,Linaria spartea (L.) Chaz.,2065,Medium,Indoor
+Orthotrichaceae,1127,Groutiella Moss,3623,Trifolium depauperatum Desv. var. amplectens (Torr. & A. Gray) S. Watson,2066,Medium,Landscape
+Iridaceae,1088,Wild Iris,3484,Thelotrema lepadinum (Ach.) Ach.,2067,Small,Landscape
+Poaceae,1140,Indian Woodoats,3687,Quercus √óheterophylla Michx. f. (pro sp.),2068,Small,Indoor
+Fabaceae,1066,Cascade Clover,3380,Bartramidula Bruch & Schimp.,2069,Large,Outdoor
+Cucurbitaceae,1051,Slender Cyclanthera,3297,Bartramiopsis Kindb.,2070,Small,Outdoor
+Campanulaceae,1035,Tubeflower Bluecup,3235,Serjania polyphylla (L.) Radlk.,2071,Small,Landscape
+Grossulariaceae,1077,Spreading Gooseberry,3459,Rubus exeter L.H. Bailey,2072,Small,Landscape
+Scrophulariaceae,1167,Parrothead Indian Paintbrush,3881,Clarkia rostrata W.S. Davis,2073,Small,Outdoor
+Cyperaceae,1053,Australian Flatsedge,3300,Asclepias scaposa Vail,2074,Large,Outdoor
+Asteraceae,1020,Prairie False Willow,3116,Usnea stuppea (Rasanen) Mot.,2075,Small,Indoor
+Asteraceae,1020,Prairie Fleabane,3117,Usnea mirabilis Mot.,2076,Small,Landscape
+Fabaceae,1066,Prairie Lespedeza,3413,Usnea dimorpha (M√ºll. Arg.) Mot.,2077,Large,Indoor
+Onagraceae,1122,Desert Suncup,3597,Kolkwitzia amabilis Graebn.,2078,Medium,Landscape
+Rutaceae,1163,Backhous Fuchsia,3843,Packera castoreus (S.L. Welsh) Kartesz,2079,Small,Outdoor
+Rhachitheciaceae,1156,Rhachithecium Moss,3789,Ichnanthus P. Beauv.,2080,Small,Outdoor
+Rosaceae,1160,Elegant Cinquefoil,3809,Ipomoea tiliacea (Willd.) Choisy,2081,Large,Landscape
+Orchidaceae,1125,Guadeloupe Bonnet Orchid,3614,Lotus benthamii Greene,2082,Small,Indoor
+Poaceae,1140,Gulf Cockspur Grass,3684,Lotus crassifolius (Benth.) Greene var. crassifolius,2083,Small,Outdoor
+Poaceae,1140,Gulf Cockspur Grass,3684,Lupinus polyphyllus Lindl. ssp. polyphyllus,2084,Large,Outdoor
+Lycopodiaceae,1104,Yewleaf Clubmoss,3551,Renealmia occidentalis (Sw.) Sweet,2085,Small,Outdoor
+Candelariaceae,1036,Eggyolk Lichen,3236,Commelina dianthifolia Delile var. dianthifolia,2086,Small,Indoor
+Chenopodiaceae,1041,Valley Saltbush,3267,Veronica persica Poir.,2087,Medium,Outdoor
+Pottiaceae,1149,Tortula Moss,3765,Citrus limetta Risso,2088,Large,Indoor
+Chenopodiaceae,1041,Fremont's Goosefoot,3264,Dioscorea dumetorum (Kunth) Pax,2089,Small,Outdoor
+Polemoniaceae,1141,Downy Phlox,3724,Celastrus L.,2090,Large,Outdoor
+Poaceae,1140,Rice Barnyardgrass,3707,Setaria nigrirostris (Nees) T. Dur. & Schinz,2091,Medium,Outdoor
+Rosaceae,1160,Lookout Mountain Blackberry,3816,Ballota nigra L. var. alba (L.) Sm.,2092,Medium,Outdoor
+Dryopteridaceae,1060,Woodfern,3345,Avicennia germinans (L.) L.,2093,Medium,Outdoor
+Brassicaceae,1027,Globe Yellowcress,3192,Diospyros digyna Jacq.,2094,Small,Indoor
+Crassulaceae,1049,Manystem Liveforever,3289,Ocotea foeniculacea Mez,2095,Medium,Outdoor
+Araliaceae,1014,'ohe Kiko 'ola,3042,Thunbergia alata Bojer ex Sims,2096,Medium,Indoor
+Clusiaceae,1044,Bacury,3276,Pterocaulon Elliott,2097,Medium,Outdoor
+Scrophulariaceae,1167,Littleleaf Bush Penstemon,3878,Isoetes melanospora Engelm.,2098,Small,Landscape
+Funariaceae,1069,Funaria Moss,3446,Cystopteris √óillinoensis R.C. Moran,2099,Small,Outdoor
+Gyalectaceae,1078,Dimple Lichen,3460,Silene scaposa B.L. Rob. var. scaposa,2100,Medium,Outdoor
+Violaceae,1191,Feltleaf Violet,3941,Fuirena coerulescens Steud.,2101,Small,Indoor
+Alismataceae,1005,Guyanese Arrowhead,3016,Baptisia australis (L.) R. Br. var. aberrans (Larisey) M. Mendenhall,2102,Medium,Landscape
+Pteridaceae,1151,Goldback Fern,3770,Vaccinium √ómargarettiae Ashe (pro sp.),2103,Small,Outdoor
+Orchidaceae,1125,Hachuela,3615,Senna artemisioides (Gaudich. ex DC.) Randell ssp. helmsii (Symon) Randell,2104,Medium,Outdoor
+Poaceae,1140,Bahiagrass,3663,Solidago uliginosa Nutt. var. linoides (Torr. & A. Gray) Fernald,2105,Large,Outdoor
+Ranunculaceae,1155,Yellow Woodland Anemone,3788,Korthalsella remyana v. Tiegh.,2106,Small,Outdoor
+Orchidaceae,1125,Wullschlaegelia,3621,Viola lanceolata L. ssp. lanceolata,2107,Large,Indoor
+Gomphillaceae,1073,Tricharia Lichen,3453,Salix pedicellaris Pursh,2108,Large,Landscape
+Fabaceae,1066,Pentaclethra,3410,Opegrapha bonplandii F√©e,2109,Large,Indoor
+Rosaceae,1160,Chamise,3803,Borago L.,2110,Large,Outdoor
+Selaginellaceae,1168,Riddell's Spikemoss,3896,Dichanthelium boscii (Poir.) Gould & C.A. Clark,2111,Large,Landscape
+Poaceae,1140,Slimspike Threeawn,3711,Montia bostockii (A.E. Porsild) S.L. Welsh,2112,Small,Indoor
+Cistaceae,1042,Chisos Mountain Pinweed,3270,Brachythecium trachypodium (Brid.) Schimp.,2113,Medium,Indoor
+Cactaceae,1032,Chisos Mountain Pricklypear,3217,Brachythecium campestre (M√ºll. Hal.) Schimp.,2114,Medium,Outdoor
+Verbenaceae,1189,Latin American Mock Vervain,3930,Phacelia ramosissima Douglas ex Lehm. var. subglabra M. Peck,2115,Large,Indoor
+Grossulariaceae,1077,Orange Gooseberry,3458,Artocarpus altilis (Parkinson) Fosberg,2116,Small,Indoor
+Iridaceae,1088,Abbeville Iris,3481,Ruellia caerulea Morong,2117,Large,Indoor
+Parmeliaceae,1129,Louisiana Parmotrema Lichen,3638,Stachys latidens Small ex Britton,2118,Large,Indoor
+Orchidaceae,1125,Clamshell Orchid,3611,Brassica juncea (L.) Czern.,2119,Medium,Indoor
+Fabaceae,1066,Haematoxylum,3398,Lathyrus lanszwertii Kellogg var. brownii (Eastw.) Jeps.,2120,Medium,Indoor
+Polemoniaceae,1141,Coral Ipomopsis,3723,Bryum violaceum Crundw. & Nyholm,2121,Medium,Outdoor
+Cornaceae,1048,Redosier Dogwood,3286,Plantago coronopus L.,2122,Small,Outdoor
+Lecanoraceae,1093,Rim Lichen,3513,Leersia monandra Sw.,2123,Medium,Indoor
+Lecanoraceae,1093,Rim Lichen,3513,Setaria adhaerens (Forssk.) Chiov.,2124,Large,Landscape
+Pteridaceae,1151,Indian's Dream,3771,Quercus macrocarpa Michx.,2125,Large,Outdoor
+Araliaceae,1014,Palo De Vaca,3044,Okenia hypogaea Schltdl. & Cham.,2126,Medium,Indoor
+Apiaceae,1011,Spreading Hedgeparsley,3033,Rubus bushii L.H. Bailey,2127,Medium,Landscape
+Iridaceae,1088,Annual Blue-eyed Grass,3482,Lomatium marginatum (Benth.) J.M. Coult. & Rose var. purpureum Jeps.,2128,Small,Landscape
+Verrucariaceae,1190,Thelidium Lichen,3936,Stenaria butterwickiae (Terrell) Terrell,2129,Large,Indoor
+Parmeliaceae,1129,Fendler's Tuckermannopsis Lichen,3635,Carex buxbaumii Wahlenb.,2130,Large,Landscape
+Acarosporaceae,1001,Cracked Lichen,3008,Buxbaumia aphylla Hedw.,2131,Medium,Outdoor
+Acanthaceae,1000,Night And Afternoon,3005,Bunchosia glandulifera (Jacq.) Kunth,2132,Small,Outdoor
+Fabaceae,1066,Michaux's Snoutbean,3405,Antitrichia californica Sull.,2133,Medium,Indoor
+Rosaceae,1160,Catalina Ironwood,3801,Mahonia pinnata (Lag.) Fedde ssp. pinnata,2134,Large,Landscape
+Lamiaceae,1091,Alabama Skullcap,3489,Acer negundo L. var. californicum (Torr. & A. Gray) Sarg.,2135,Large,Outdoor
+Chenopodiaceae,1041,Pitseed Goosefoot,3265,Orobanche californica Cham. & Schltdl. ssp. grandis Heckard,2136,Medium,Landscape
+Caryophyllaceae,1039,Baldwin's Nailwort,3247,Helianthella californica A. Gray,2137,Small,Indoor
+Ranunculaceae,1155,Eschscholtz's Buttercup,3782,Marah fabaceus (Naud.) Naud. ex Greene,2138,Small,Landscape
+Bryaceae,1028,Pohlia Moss,3213,Eschscholzia californica Cham.,2139,Small,Landscape
+Campanulaceae,1035,Jasione,3229,Caloncoba Gilg,2140,Medium,Landscape
+Rutaceae,1163,Lava Melicope,3845,Phacelia calthifolia Brand,2141,Medium,Outdoor
+Cyperaceae,1053,Fringed Sedge,3309,Dryobalanops C.F. Gaertn.,2142,Large,Outdoor
+Cyperaceae,1053,Baldwin's Spikerush,3301,Solidago altissima L.,2143,Large,Outdoor
+Scrophulariaceae,1167,Ballast Toadflax,3864,Lactuca canadensis L.,2144,Small,Indoor
+Physciaceae,1134,Diplotomma Lichen,3648,Spergularia canadensis (Pers.) G. Don,2145,Small,Landscape
+Bryaceae,1028,Hagen's Bryum Moss,3210,Acacia holosericea A. Cunn. ex G. Don,2146,Small,Outdoor
+Scrophulariaceae,1167,Elmer's Snapdragon,3870,Dudleya candelabrum Rose,2147,Small,Landscape
+Fabaceae,1066,Manystem Pea,3404,Aniba bracteata (Nees) Mez,2148,Medium,Outdoor
+Scrophulariaceae,1167,Fernleaved Pedicularis,3871,Carex capitata L. ssp. arctogena (Harry Sm.) Hiitonen,2149,Large,Indoor
+Malvaceae,1107,Yucatan Flymallow,3562,Amomum Roxb.,2150,Small,Outdoor
+Fabaceae,1066,Balloon Sack Clover,3372,Cyclachaena xanthiifolia (Nutt.) Fresen.,2151,Medium,Landscape
+Verrucariaceae,1190,Zahlbruckner's Earth Lichen,3937,Kallstroemia pubescens (G. Don) Dandy,2152,Medium,Outdoor
+Lecanoraceae,1093,Rim Lichen,3513,Eustachys paspaloides (Vahl) Lanza & Mattei ssp. caribaea (Spreng.) Nowack,2153,Medium,Outdoor
+Thelotremataceae,1179,Barnacle Lichen,3912,Elephantopus carolinianus Raeusch.,2154,Small,Outdoor
+Scrophulariaceae,1167,Snow Indian Paintbrush,3889,Delphinium carolinianum Walter,2155,Large,Landscape
+Acanthaceae,1000,Acanthus,3000,Elytraria caroliniensis (J.F. Gmel.) Pers. var. angustifolia (Fernald) S.F. Blake,2156,Small,Indoor
+Lecanoraceae,1093,Rim Lichen,3513,Arthraxon P. Beauv.,2157,Large,Indoor
+Anacardiaceae,1008,Smooth Sumac,3023,Ramalina paludosa B. Moore,2158,Medium,Outdoor
+Loasaceae,1101,Hairy Blazingstar,3546,Trifolium eriocephalum Nutt. ssp. cascadense J.M. Gillett,2159,Large,Landscape
+Ericaceae,1063,Stanford's Manzanita,3354,Lyonothamnus floribundus A. Gray,2160,Large,Indoor
+Acanthaceae,1000,Starhorn,3007,Cercocarpus traskiae Eastw.,2161,Small,Indoor
+Hydrophyllaceae,1083,Kaweah River Phacelia,3470,Eustoma exaltatum (L.) Salisb. ex G. Don,2162,Large,Indoor
+Poaceae,1140,Prairie Sandreed,3703,Usnea cavernosa Tuck.,2163,Medium,Indoor
+Polygonaceae,1143,Annual Buckwheat,3736,Cymopterus minimus (Mathias) Mathias,2164,Medium,Landscape
+Asteraceae,1020,Hairy False Goldenaster,3096,Chamaecytisus Link,2165,Large,Outdoor
+Liliaceae,1098,Starry False Lily Of The Valley,3536,Adenostoma fasciculatum Hook. & Arn. var. obtusifolium S. Watson,2166,Medium,Landscape
+Fagaceae,1067,Bartram Oak,3435,Anthemis L.,2167,Medium,Outdoor
+Bartramiaceae,1021,Bartramidula Moss,3157,Erigeron versicolor (Greenm.) G.L. Nesom,2168,Large,Landscape
+Boraginaceae,1025,Showy Stickseed,3178,Eriogonum dasyanthemum Torr. & A. Gray,2169,Medium,Landscape
+Poaceae,1140,Wheatgrass,3717,Solanum xanti A. Gray var. xanti,2170,Large,Landscape
+Lecanoraceae,1093,Rim Lichen,3513,Paspalidium chapmanii (Vasey) Pohl,2171,Small,Indoor
+Fabaceae,1066,Stinking Milkvetch,3424,Rosa laevigata Michx.,2172,Medium,Landscape
+Fagaceae,1067,Fernow Oak,3439,Carex cherokeensis Schwein.,2173,Small,Indoor
+Liliaceae,1098,Glossyseed Yellow Star-grass,3522,Elatine chilensis A. Gray,2174,Small,Outdoor
+Polytrichaceae,1145,Bartramiopsis Moss,3755,Callistephus chinensis (L.) Nees,2175,Medium,Indoor
+Chenopodiaceae,1041,Wheelscale Saltbush,3268,Lycium chinense Mill.,2176,Large,Indoor
+Asteraceae,1020,Rattlesnakeroot,3121,Pinus massoniana Lamb.,2177,Large,Indoor
+Polypodiaceae,1144,Arizona Scaly Polypody,3752,Alocasia cucullata (Lour.) G. Don,2178,Small,Landscape
+Asteraceae,1020,Coulter's Brickellbush,3074,Canarium album (Lour.) Rausch.,2179,Small,Outdoor
+Asteraceae,1020,Shrubby Alkaliaster,3130,Rumex orthoneurus Rech. f.,2180,Small,Outdoor
+Scrophulariaceae,1167,Keckiella,3875,Gentianella wislizeni (Engelm.) J.M. Gillett,2181,Medium,Landscape
+Asteraceae,1020,Woodland Lettuce,3152,Glandularia chiricahensis Umber,2182,Medium,Landscape
+Caryophyllaceae,1039,Valley Schiedea,3257,Limosella pubiflora Pennell,2183,Small,Outdoor
+Sapindaceae,1165,Basketwood,3853,Flyriella parryi (A. Gray) R.M. King & H. Rob.,2184,Large,Indoor
+Viscaceae,1192,Dwarf Mistletoe,3947,Lechea mensalis Hodgdon,2185,Large,Outdoor
+Boraginaceae,1025,Cretan Viper's Bugloss,3166,Opuntia chisosensis (Anthony) D.J. Ferguson,2186,Medium,Landscape
+Rubiaceae,1161,Intermountain Bedstraw,3834,Quercus gravesii Sudw.,2187,Small,Landscape
+Lichinaceae,1097,Pyrenopsis Lichen,3518,Solorina octospora (Arnold) Arnold,2188,Small,Indoor
+Lecanoraceae,1093,Rim Lichen,3513,Elymus churchii J.J.N. Campb.,2189,Large,Landscape
+Cyperaceae,1053,Hairy Flatsedge,3310,Astragalus cimae M.E. Jones var. cimae,2190,Medium,Landscape
+Brassicaceae,1027,Phoenicaulis,3199,Prosthechea cochleata (L.) W.E. Higgins var. cochleata,2191,Medium,Outdoor
+Asteraceae,1020,Garden Cosmos,3088,Woodsia √ógracilis (G. Lawson) Butters,2192,Large,Indoor
+Asteraceae,1020,Chamomile,3068,Cryptantha elata (Eastw.) Payson,2193,Medium,Indoor
+Boraginaceae,1025,Forget-me-not,3167,Cliftonia Banks ex C.F. Gaertn.,2194,Medium,Indoor
+Capparaceae,1037,Falseteeth,3238,Cuscuta epithymum (L.) L.,2195,Small,Indoor
+Asteraceae,1020,Western Showy Aster,3148,Selaginella selaginoides (L.) P. Beauv. ex Mart. & Schrank,2196,Small,Landscape
+Caryophyllaceae,1039,Stitchwort,3256,Ivesia lycopodioides A. Gray,2197,Medium,Landscape
+Euphorbiaceae,1065,Variable Sandmat,3365,Castilleja affinis Hook. & Arn. ssp. affinis,2198,Medium,Landscape
+Fabaceae,1066,Drew's Silky Lupine,3388,Suaeda tampicensis (Standl.) Standl.,2199,Small,Landscape
+Rosaceae,1160,Baton Rouge Blackberry,3799,Deinandra corymbosa (DC.) B.G. Baldw.,2200,Small,Indoor
+Sterculiaceae,1173,Theobroma,3906,Coffea L.,2201,Large,Indoor
+Scrophulariaceae,1167,Snowqueen,3890,Ranunculus coloradensis (L.D. Benson) L.D. Benson,2202,Small,Outdoor
+Polemoniaceae,1141,Yellow Woollystar,3733,Phoradendron macrophyllum (Engelm.) Cockerell ssp. macrophyllum,2203,Small,Outdoor
+Fabaceae,1066,Snowy River Wattle,3421,Aquilegia L.,2204,Large,Indoor
+Asteraceae,1020,Disc Mayweed,3076,Stellaria media (L.) Vill. ssp. neglecta (Weihe) Murb.,2205,Small,Indoor
+Brassicaceae,1027,Alyssum,3186,Conardia compacta (M√ºll. Hal.) H. Rob.,2206,Medium,Outdoor
+Apiaceae,1011,Mock Parsley,3031,Allium vineale L. ssp. compactum (Thuill.) Coss. & Germ.,2207,Medium,Landscape
+Fabaceae,1066,Wilson's Milkvetch,3432,Astrothelium confusum M√ºll. Arg.,2208,Medium,Outdoor
+Poaceae,1140,Small Japanese Silver Grass,3713,Barbula convoluta Hedw.,2209,Medium,Landscape
+Ranunculaceae,1155,Oriental Virginsbower,3784,Eucalyptus microtheca F. Muell.,2210,Medium,Outdoor
+Nyctaginaceae,1120,Hairy Four O'clock,3588,Copaifera L.,2211,Large,Indoor
+Brassicaceae,1027,Serpentine Bittercress,3202,Ipomopsis ramosa Al Schneid. & Bregar,2212,Large,Indoor
+Pedaliaceae,1131,Desert Unicorn-plant,3645,Symphoricarpos orbiculatus Moench,2213,Small,Outdoor
+Lamiaceae,1091,Origanum,3500,Corymbia K.D. Hill & L.A.S. Johnson,2214,Large,Outdoor
+Fabaceae,1066,Derris,3385,Capparis corymbosa Lam.,2215,Small,Indoor
+Onagraceae,1122,Beaked Clarkia,3596,Tanacetum balsamita L.,2216,Medium,Landscape
+Lecanoraceae,1093,Rim Lichen,3513,Cottea Kunth,2217,Medium,Indoor
+Asclepiadaceae,1018,Bear Mountain Milkweed,3053,Brickellia coulteri A. Gray,2218,Small,Outdoor
+Agavaceae,1003,Agave,3012,Acarospora aeruginosa Hasse,2219,Large,Outdoor
+Brassicaceae,1027,Golden Bladderpod,3193,Vaccinium crassifolium Andrews ssp. crassifolium,2220,Large,Outdoor
+Asteraceae,1020,Changing Fleabane,3069,Echium creticum L.,2221,Large,Indoor
+Myrtaceae,1117,Shining Gum,3581,Polygala penaea L.,2222,Small,Indoor
+Rubiaceae,1161,Fevertree,3833,Cyperus tenuis Sw.,2223,Medium,Indoor
+Pleomassariaceae,1139,Eopyrenula Lichen,3659,Crocynia pyxinoides Nyl.,2224,Small,Landscape
+Polygonaceae,1143,Slender Woolly Buckwheat,3747,Porpidia crustulata (Ach.) Hertel & Knoph,2225,Small,Outdoor
+Poaceae,1140,Wimmera Ryegrass,3719,Umbilicaria crustulosa (Ach.) Frey,2226,Large,Outdoor
+Simmondsiaceae,1169,Jojoba,3897,Laetia procera (Poepp.) Eichl.,2227,Medium,Outdoor
+Chenopodiaceae,1041,Dysphania,3263,Cladonia pachycladodes Vain.,2228,Small,Indoor
+Asteraceae,1020,Eared Indian Plantain,3079,Cladonia humilis (With.) J.R. Laundon,2229,Small,Outdoor
+Salicaceae,1164,Eared Willow,3851,Cladonia gracilis (L.) Willd. ssp. gracilis,2230,Large,Indoor
+Solorinellaceae,1171,Solorinella Lichen,3903,Ranunculus sceleratus L. var. multifidus Nutt.,2231,Medium,Outdoor
+Brassicaceae,1027,Fewflower Draba,3189,Scleria pauciflora Muhl. ex Willd. var. curtissii (Britton) Fairey,2232,Medium,Landscape
+Fabaceae,1066,Piedmont Breadroot,3411,Eurystyles Wawra,2233,Medium,Indoor
+Thymelaeaceae,1181,Variableleaf False Ohelo,3915,Penstemon richardsonii Douglas ex Lindl. var. dentatus (D.D. Keck) Cronquist,2234,Medium,Outdoor
+Hymeneliaceae,1084,Rimmed Lichen,3477,Dichanthelium dichotomum (L.) Gould var. breve (Hitchc. & Chase) Gould & C.A. Clark,2235,Small,Outdoor
+Asteraceae,1020,Golden-yarrow,3091,Arctostaphylos tomentosa (Pursh) Lindl. ssp. daciticola P.V. Wells,2236,Medium,Landscape
+Asteraceae,1020,Ironweed,3102,Quercus dentata Thunb.,2237,Medium,Indoor
+Parmeliaceae,1129,Beard Lichen,3631,Chrysanthemum majus (Desf.) Asch.,2238,Medium,Indoor
+Ranunculaceae,1155,Cursed Buttercup,3781,Campanula glomerata L.,2239,Small,Outdoor
+Asteraceae,1020,Hairy Goldenrod,3097,Lotus nevadensis (S. Watson) Greene var. davidsonii (Greene) Isely,2240,Small,Landscape
+Scrophulariaceae,1167,Hairy Indian Paintbrush,3873,Derris Lour.,2241,Small,Indoor
+Nyctaginaceae,1120,Southwestern Ringstem,3590,Ceanothus greggii A. Gray,2242,Medium,Indoor
+Rosaceae,1160,Strawberry,3827,Rosa stellata Wooton ssp. stellata,2243,Large,Outdoor
+Scrophulariaceae,1167,Parry's Beardtongue,3882,Camissonia boothii (Douglas ex Lehm.) P.H. Raven ssp. desertorum (Munz) P.H. Raven,2244,Medium,Indoor
+Pyrenulaceae,1153,Pyrenocollema Lichen,3774,Proboscidea althaeifolia (Benth.) Decne.,2245,Medium,Outdoor
+Ranunculaceae,1155,Vasevine,3786,Collinsia callosa Parish,2246,Large,Landscape
+Betulaceae,1023,Arizona Alder,3159,Alstonia macrophylla Wall. ex G. Don,2247,Medium,Outdoor
+Ditrichaceae,1058,Trichodon Moss,3333,Salix planifolia Pursh ssp. planifolia,2248,Large,Landscape
+Pottiaceae,1149,Trichostomum Moss,3766,Salix planifolia Pursh,2249,Large,Outdoor
+Polygonaceae,1143,Fowler's Knotweed,3739,Dicranella heteromalla (Hedw.) Schimp.,2250,Large,Indoor
+Poaceae,1140,Foxtail Pricklegrass,3681,Dicranum majus Sm.,2251,Small,Landscape
+Orchidaceae,1125,Lady's Tresses,3616,Gyalecta erythrozona Lettau,2252,Small,Outdoor
+Asteraceae,1020,Queen-devil Hawkweed,3120,Diplotomma penichrum (Tuck.) Szat.,2253,Large,Outdoor
+Parmeliaceae,1129,Beard Lichen,3631,Matricaria discoidea DC.,2254,Large,Indoor
+Liliaceae,1098,Striped Barbados Lily,3537,Crataegus distincta Kruschke,2255,Small,Landscape
+Oleaceae,1121,Privet,3595,Parmotrema dominicanum (Vain.) Hale,2256,Large,Indoor
+Dryopteridaceae,1060,Onetooth Woodfern,3341,Micarea Fr.,2257,Medium,Indoor
+Dryopteridaceae,1060,Lime Fern,3339,Trichomanes punctatum Poir.,2258,Large,Landscape
+Poaceae,1140,Hairy Panicgrass,3685,Lupinus albifrons Benth. var. douglasii (J. Agardh) C.P. Sm.,2259,Large,Indoor
+Caryophyllaceae,1039,Hairy Rupturewort,3251,Lathyrus japonicus Willd. var. pubescens Hartm.,2260,Small,Outdoor
+Physciaceae,1134,Rinodina Lichen,3649,Danthonia sericea Nutt.,2261,Medium,Landscape
+Saxifragaceae,1166,Whiplash Saxifrage,3862,Lycium puberulum A. Gray,2262,Large,Indoor
+Cyperaceae,1053,Curtiss' Nutrush,3307,Lobelia puberula Michx. var. pauciflora Bush,2263,Large,Indoor
+Brassicaceae,1027,Serpentine Draba,3203,Phlox pilosa L.,2264,Large,Outdoor
+Ranunculaceae,1155,Yellow Columbine,3787,Viola pubescens Aiton,2265,Medium,Landscape
+Liliaceae,1098,Hairy Solomon's Seal,3524,Lupinus adsurgens E. Drew var. adsurgens,2266,Large,Outdoor
+Physciaceae,1134,Rinodina Lichen,3649,Sporobolus R. Br.,2267,Medium,Landscape
+Orchidaceae,1125,Adam And Eve,3609,Ruellia drushelii Tharp & F.A. Barkley,2268,Small,Landscape
+Dryopteridaceae,1060,Cliff Fern,3336,Lesquerella congesta Rollins,2269,Medium,Outdoor
+Poaceae,1140,Proso Millet,3704,Hypogymnia duplicata (Ach.) Rass.,2270,Small,Outdoor
+Polygonaceae,1143,Garden Rhubarb,3740,Elaphoglossum petiolatum (Sw.) Urb. var. dussii (Underw. ex Maxon) Proctor,2271,Small,Outdoor
+Parmeliaceae,1129,Beard Lichen,3631,Crepis nana Richardson ssp. nana,2272,Small,Indoor
+Poaceae,1140,Lovegrass Tridens,3690,Hedeoma nana (Torr.) Briq. ssp. macrocalyx W.S. Stewart,2273,Small,Outdoor
+Scrophulariaceae,1167,Littleflower Penstemon,3877,Iris pumila L.,2274,Small,Landscape
+Asteraceae,1020,Yellowflower Tarweed,3156,Arceuthobium M. Bieb.,2275,Large,Outdoor
+Caprifoliaceae,1038,Beautybush,3240,Senecio fremontii Torr. & A. Gray var. occidentalis A. Gray,2276,Small,Landscape
+Lichinaceae,1097,Hairy Thread Lichen,3517,Calliandra humilis Benth. var. humilis,2277,Medium,Indoor
+Poaceae,1140,Dropseed,3676,Dysphania R. Br.,2278,Small,Outdoor
+Asteraceae,1020,Beaver Mountain Ragwort,3060,Parasenecio auriculatus (DC.) J.R. Grant,2279,Large,Outdoor
+Rubiaceae,1161,Tropical Mexican Clover,3838,Salix aurita L.,2280,Medium,Landscape
+Asteraceae,1020,White Doll's Daisy,3150,Solanum mauritianum Scop.,2281,Large,Outdoor
+Liliaceae,1098,Goldencrest,3523,Arctostaphylos glandulosa Eastw. ssp. glaucomollis P.V. Wells,2282,Medium,Indoor
+Poaceae,1140,Bedgrass,3664,Erigeron eatonii A. Gray var. eatonii,2283,Medium,Landscape
+Hydrophyllaceae,1083,Low Phacelia,3471,Galeopsis speciosa Mill.,2284,Small,Outdoor
+Onagraceae,1122,Wolf's Evening Primrose,3605,Valerianella texana Dyal,2285,Small,Indoor
+Dryopteridaceae,1060,Striped Twinsorus Fern,3343,Rubus moluccanus L. [excluded],2286,Medium,Outdoor
+Asteraceae,1020,Hairy Wedelia,3098,Astragalus oophorus S. Watson var. caulescens (M.E. Jones) M.E. Jones,2287,Small,Outdoor
+Thelenellaceae,1178,Julella Lichen,3911,Garrya ovata Benth.,2288,Small,Outdoor
+Fabaceae,1066,Davidson's Bird's-foot Trefoil,3384,Candelariella efflorescens R.C. Harris & W.R. Buck,2289,Small,Landscape
+Scrophulariaceae,1167,Sudetic Lousewort,3891,Potentilla concinna Richardson var. bicrenata (Rydb.) S.L. Welsh & B.C. Johnst.,2290,Small,Indoor
+Rhamnaceae,1157,Hairyfruit Chewstick,3791,Lupinus elegans Kunth,2291,Medium,Indoor
+Asteraceae,1020,Koolau Range Beggarticks,3104,Graphis elegans (Borrer ex Sm.) Ach.,2292,Large,Outdoor
+Convolvulaceae,1047,Bejuco De Puerco,3283,Solidago latissimifolia Mill.,2293,Small,Outdoor
+Boraginaceae,1025,Livermore Stickseed,3171,Juncus elliottii Chapm. var. elliottii,2294,Medium,Landscape
+Fabaceae,1066,Velvet Leaf Senna,3431,Sairocarpus elmeri (Rothm.) D.A. Sutton,2295,Large,Landscape
+Fabaceae,1066,Bentham's Broom,3373,Solidago ulmifolia Muhl. ex Willd. var. microphylla A. Gray,2296,Large,Indoor
+Fabaceae,1066,Big Deervetch,3374,Solidago ulmifolia Muhl. ex Willd.,2297,Large,Landscape
+Fabaceae,1066,Bigleaf Lupine,3375,Erigeron engelmannii A. Nelson var. engelmannii,2298,Large,Indoor
+Asteraceae,1020,Resindot Sunflower,3122,Eopyrenula R.C. Harris,2299,Medium,Indoor
+Poaceae,1140,Somerset Hair Grass,3714,Ranunculus eschscholtzii Schltdl. var. eschscholtzii,2300,Large,Landscape
+Physciaceae,1134,Rinodina Lichen,3649,Cynodon aethiopicus W.D. Clayton & Harlan,2301,Medium,Indoor
+Asteraceae,1020,Hall's Columbiadoria,3099,Lupinus luteus L.,2302,Medium,Landscape
+Physciaceae,1134,Rinodina Lichen,3649,Panicum dichotomiflorum Michx. var. puritanorum Svens.,2303,Small,Outdoor
+Myrtaceae,1117,River Bottlebrush,3579,Pleuropogon sabinei R. Br.,2304,Small,Outdoor
+Asteraceae,1020,Annual Nehe,3055,Tilingia ajanensis Regel & Tiling,2305,Large,Landscape
+Rhamnaceae,1157,Desert Ceanothus,3790,Capparis flexuosa (L.) L.,2306,Large,Indoor
+Uncertain Ascomycota Family,1186,Arthothelium Lichen,3920,Chamaerops L.,2307,Large,Landscape
+Euphorbiaceae,1065,Parry's Sandmat,3359,Clarkia amoena (Lehm.) A. Nelson & J.F. Macbr. ssp. caurina (Abrams ex Piper) F.H. Lewis & M.E. Lewis,2308,Small,Outdoor
+Asteraceae,1020,Low Rough Aster,3107,Monardella stebbinsii Hardham & Bartel,2309,Small,Indoor
+Menyanthaceae,1110,Yellow Floatingheart,3565,Viola tomentosa M.S. Baker & J.C. Clausen,2310,Small,Outdoor
+Scrophulariaceae,1167,Prostrate Speedwell,3884,Tuckermannopsis fendleri (Nyl.) Hale,2311,Small,Outdoor
+Malvaceae,1107,Velvetleaf,3557,Pedicularis cystopteridifolia Rydb.,2312,Small,Landscape
+Parmeliaceae,1129,Island Cetraria Lichen,3637,Quercus √ófernowii Trel.,2313,Large,Landscape
+Cyperaceae,1053,Thickhead Sedge,3324,Pinckneya bracteata (W. Bartram) Raf.,2314,Small,Landscape
+Boraginaceae,1025,Cliffdweller's Cryptantha,3165,Draba pauciflora R. Br.,2315,Large,Landscape
+Zingiberaceae,1194,Bijao,3949,Helianthus occidentalis Riddell,2316,Small,Outdoor
+Asteraceae,1020,Woodland Monolopia,3153,Citharexylum √óperkinsii Moldenke,2317,Small,Landscape
+Commelinaceae,1046,Birdbill Dayflower,3282,Calendula arvensis L.,2318,Small,Landscape
+Cyrillaceae,1054,Cliftonia,3326,Brassica rapa L. var. amplexicaulis Tanaka & Ono,2319,Small,Landscape
+Scrophulariaceae,1167,Birdeye Speedwell,3865,Sonchus arvensis L.,2320,Large,Indoor
+Bryaceae,1028,Klinggraeff's Bryum Moss,3211,Adenophorus hymenophylloides (Kaulf.) Hook. & Grev.,2321,Small,Indoor
+Poaceae,1140,Small Fescue,3712,Stuckenia filiformis (Pers.) B√∂rner ssp. filiformis,2322,Small,Outdoor
+Asteraceae,1020,Elmleaf Goldenrod,3082,Dudleya edulis (Nutt.) Moran,2323,Small,Indoor
+Liliaceae,1098,New Mexican Nodding Onion,3530,Huperzia selago (L.) Bernh. ex Schrank & Mart. var. densa Trevis.,2324,Medium,Indoor
+Ericaceae,1063,Creeping Blueberry,3350,Cabomba palaeformis Fassett,2325,Large,Landscape
+Urticaceae,1187,Artillery Plant,3923,Caryota L.,2326,Medium,Outdoor
+Rutaceae,1163,Bitter Orange,3844,Euthamia graminifolia (L.) Nutt. var. graminifolia,2327,Large,Outdoor
+Asteraceae,1020,Hall's Woolly Sunflower,3100,Lupinus affinis J. Agardh,2328,Small,Indoor
+Myrtaceae,1117,River Redgum,3580,Tripsacum floridanum Porter ex Vasey,2329,Medium,Outdoor
+Rosaceae,1160,Hansen's Cinquefoil,3810,Tephrosia florida (F.G. Dietr.) C.E. Wood,2330,Large,Landscape
+Asteraceae,1020,Fewleaf Sunflower,3084,Scleria lithosperma (L.) Sw.,2331,Medium,Landscape
+Liliaceae,1098,Harvest Brodiaea,3525,Astragalus obcordatus Elliott,2332,Large,Outdoor
+Rosaceae,1160,Arizona Whitefeather,3798,Tetraplasandra flynnii Lowry & K.R. Wood,2333,Medium,Landscape
+Polygonaceae,1143,Chaparral Buckwheat,3737,Myosotis L.,2334,Medium,Landscape
+Acanthaceae,1000,Shrubby Whitevein,3006,Polygonum fowleri B.L. Rob. ssp. hudsonianum (S.J. Wolf & McNeill) Costea & Tardif,2335,Large,Indoor
+Fabaceae,1066,Riverbar Bird's-foot Trefoil,3416,Crypsis alopecuroides (Piller & Mitterp.) Schrad.,2336,Small,Landscape
+Myrtaceae,1117,Smithton Peppermint Gum,3582,Adiantum fragile Sw. var. fragile,2337,Medium,Landscape
+Boraginaceae,1025,Mojave Popcornflower,3173,Fritillaria liliacea Lindl.,2338,Large,Outdoor
+Acanthaceae,1000,Drushel's Wild Petunia,3004,Chenopodium fremontii S. Watson,2339,Large,Landscape
+Verbenaceae,1189,Fiddlewood,3929,Carex crinita Lam. var. crinita,2340,Small,Indoor
+Cuscutaceae,1052,Clover Dodder,3298,Thysanocarpus Hook.,2341,Large,Landscape
+Solanaceae,1170,Chaparral Nightshade,3898,Plagiobothrys fulvus (Hook. & Arn.) I.M. Johnst. var. campestris (Greene) I.M. Johnst.,2342,Large,Outdoor
+Liliaceae,1098,Jones' Rainlily,3526,Funaria hygrometrica Hedw.,2343,Small,Indoor
+Dioscoreaceae,1056,Bitter Yam,3331,Cosmos bipinnatus Cav.,2344,Large,Indoor
+Asteraceae,1020,Shrubland Dubautia,3131,Rheum rhabarbarum L.,2345,Large,Indoor
+Fabaceae,1066,Pigeon Bundleflower,3412,Pteroglossaspis ecristata (Fernald) Rolfe,2346,Medium,Outdoor
+Parmeliaceae,1129,Michaux's Beard Lichen,3640,"Pseudoleskea incurvata (Hedw.) Loeske var. gigantea (E. Lawton) H.A. Crum, Steere & L.E. Anderson",2347,Large,Landscape
+Poaceae,1140,Chapman's Bristlegrass,3671,Macromeria D. Don,2348,Large,Outdoor
+Campanulaceae,1035,Robust Lobelia,3232,Gigantochloa Kurz ex Munro,2349,Large,Landscape
+Celastraceae,1040,Bittersweet,3260,Cirsium gilense Wooton & Standl.,2350,Medium,Landscape
+Limnanthaceae,1099,White Meadowfoam,3542,Sphagnum girgensohnii Russow,2351,Small,Indoor
+Boraginaceae,1025,Pasture Heliotrope,3176,Epilobium glaberrimum Barbey ssp. glaberrimum,2352,Medium,Outdoor
+Arecaceae,1015,Fan Palm,3046,Cuscuta potosina Schaffn.,2353,Small,Landscape
+Selaginellaceae,1168,Club Spikemoss,3895,Rorippa globosa (Turcz. ex Fisch. & C.A. Mey.) Hayek,2354,Medium,Landscape
+Myrsinaceae,1116,Molokai Colicwood,3572,Hypoxis sessilis L.,2355,Small,Outdoor
+Poaceae,1140,Black Bristlegrass,3665,Tragopogon √óneohybridus Farw.,2356,Small,Outdoor
+Asteraceae,1020,Smooth Beggartick,3135,Pityrogramma √ómackenneyi W.H. Wagner,2357,Large,Landscape
+Rosaceae,1160,Clubmoss Mousetail,3805,Lesquerella aurea Wooton,2358,Small,Indoor
+Lamiaceae,1091,Black Horehound,3490,Eriophyllum confertiflorum (DC.) A. Gray var. tanacetiflorum (Greene) Jeps.,2359,Small,Indoor
+Annonaceae,1009,Monodora,3024,Lophiola aurea Ker Gawl.,2360,Large,Landscape
+Rosaceae,1160,Small Burnet,3826,Talinum gooddingii P. Wilson,2361,Medium,Indoor
+Poaceae,1140,Siberian Oatgrass,3709,Eriogonum umbellatum Torr. var. goodmanii Reveal,2362,Medium,Landscape
+Rubiaceae,1161,Venus' Pride,3839,Gratiola graniticola D. Estes,2363,Large,Outdoor
+Verbenaceae,1189,Black Mangrove,3927,Perityle cinerea (A. Gray) A. Powell,2364,Small,Outdoor
+Poaceae,1140,Ethiopian Dogstooth Grass,3677,Sicyos cucumerinus A. Gray,2365,Medium,Indoor
+Gentianaceae,1071,Harvestbells,3451,Galactia heterophylla A. Gray,2366,Small,Outdoor
+Uncertain Ascomycota Family,1186,Hassea Lichen,3921,Trifolium canescens Willd.,2367,Small,Indoor
+Cyperaceae,1053,Serpentine Sedge,3320,Phlox griseola Wherry ssp. griseola,2368,Medium,Indoor
+Ebenaceae,1061,Black Sapote,3346,Centaurea scabiosa L.,2369,Medium,Landscape
+Parmeliaceae,1129,Cavern Beard Lichen,3632,Alnus viridis (Chaix) DC.,2370,Large,Outdoor
+Lauraceae,1092,Black Sweetwood,3508,Chrysogonum virginianum L. var. virginianum,2371,Small,Indoor
+Tiliaceae,1182,Luehea,3916,Monardella viridis Jeps. ssp. viridis,2372,Medium,Outdoor
+Caprifoliaceae,1038,Coralberry,3241,Pohlia elongata Hedw. var. greenii (Brid.) Shaw,2373,Small,Outdoor
+Acanthaceae,1000,Blackeyed Susan Vine,3001,Hieracium greenei A. Gray,2374,Large,Landscape
+Roccellaceae,1159,Roccella Lichen,3796,Puccinellia groenlandica T.J. S√∏rensen,2375,Small,Landscape
+Dryopteridaceae,1060,Tryon's Woodsia,3344,Salix chlorolepis Fernald,2376,Large,Landscape
+Rubiaceae,1161,Kopa,3835,Grimmia torngakiana Brass. & Hedderson,2377,Medium,Landscape
+Cyperaceae,1053,Kral's Sedge,3311,Grimmia hamulosa Lesq.,2378,Small,Outdoor
+Caryophyllaceae,1039,La Plata Sandspurry,3252,Grimmia elongata Kaulf.,2379,Large,Landscape
+Rhizocarpaceae,1158,Poeltinula Lichen,3794,Groutiella tumidula (Mitt.) Vitt,2380,Medium,Landscape
+Cyperaceae,1053,Pine Barren Beaksedge,3316,Pleurothallis domingensis Cogn.,2381,Large,Landscape
+Poaceae,1140,Rock Panicgrass,3708,Echinochloa crus-pavonis (Kunth) Schult. var. crus-pavonis,2382,Small,Landscape
+Cyperaceae,1053,Rockdwelling Sedge,3318,Echinochloa crus-pavonis (Kunth) Schult.,2383,Small,Outdoor
+Apiaceae,1011,Alkali Desertparsley,3027,Sagittaria guayanensis Kunth,2384,Small,Indoor
+Cactaceae,1032,Pineapple Cactus,3220,Pelexia Poit. ex Lindl.,2385,Small,Outdoor
+Uncertain Ascomycota Family,1186,Hassea Lichen,3921,Haematoxylum L.,2386,Large,Indoor
+Myrtaceae,1117,Corymbia,3574,Bryum hagenii Limpr.,2387,Small,Indoor
+Brachytheciaceae,1026,Nelson's Brachythecium Moss,3184,Mentzelia hirsutissima S. Watson,2388,Medium,Landscape
+Asteraceae,1020,Blackroot,3061,Heterotheca villosa (Pursh) Shinners var. sierrablancensis Semple,2389,Medium,Indoor
+Asteraceae,1020,Field Marigold,3085,Cyperus dentoniae G. Tucker,2390,Large,Outdoor
+Fabaceae,1066,Parish's Milkvetch,3408,Mirabilis hirsuta (Pursh) MacMill.,2391,Medium,Indoor
+Isoetaceae,1089,Blackspore Quillwort,3486,Solidago hispida Muhl. ex Willd. var. hispida,2392,Small,Landscape
+Verbenaceae,1189,Vervain,3933,Castilleja tenuis (A. Heller) T.I. Chuang & Heckard,2393,Large,Outdoor
+Euphorbiaceae,1065,Roemer's Spurge,3361,Panicum hirsutum Sw.,2394,Small,Landscape
+Rosaceae,1160,Distinct Hawthorn,3807,Herniaria hirsuta L. ssp. hirsuta,2395,Small,Outdoor
+Dryopteridaceae,1060,Monte Guilarte Hollyfern,3340,Polygonatum pubescens (Willd.) Pursh,2396,Large,Indoor
+Lecanoraceae,1093,Miriquidica Lichen,3512,Ephebe hispidula (Ach.) Horwood,2397,Medium,Indoor
+Isoetaceae,1089,Blackspore Quillwort,3486,Wedelia acapulcensis Kunth var. hispida (Kunth) Strother,2398,Large,Indoor
+Nyctaginaceae,1120,Southwestern Ringstem,3590,Gouania hillebrandii Oliv. ex Hillebr.,2399,Large,Outdoor
+Dryopteridaceae,1060,Bladderfern,3335,Columbiadoria hallii (A. Gray) G.L. Nesom,2400,Medium,Landscape
+Caryophyllaceae,1039,Blue Mountain Catchfly,3248,Eriophyllum lanatum (Pursh) Forbes var. hallii Constance,2401,Medium,Landscape
+Polygonaceae,1143,Sulphur-flower Buckwheat,3748,Potentilla glandulosa Lindl. ssp. hansenii (Greene) D.D. Keck,2402,Medium,Landscape
+Poaceae,1140,Montezuma Melicgrass,3692,Brodiaea elegans Hoover ssp. elegans,2403,Large,Indoor
+Rosaceae,1160,Kellogg's Klamath Plum,3814,Gentiana saponaria L. var. latidens House,2404,Medium,Landscape
+Malvaceae,1107,Winecup,3560,Hassea Zahlbr.,2405,Medium,Indoor
+Polygonaceae,1143,Winged Buckwheat,3751,Hassea bacillosa (Nyl.) Zahlbr.,2406,Medium,Indoor
+Chenopodiaceae,1041,Siberian Saltbush,3266,Eriogonum umbellatum Torr. var. hausknechtii (Dammer) M.E. Jones,2407,Large,Landscape
+Hippocastanaceae,1080,Red Buckeye,3462,Peperomia latifolia Miq.,2408,Small,Indoor
+Cyperaceae,1053,Blue Umbrella-sedge,3302,Hieracium √óbrachiatum Bethel. ex DC.,2409,Large,Outdoor
+Vitaceae,1193,Summer Grape,3948,Crataegus √ósimulata Sarg.,2410,Large,Landscape
+Portulacaceae,1147,Sunbright,3761,Crataegus √óimmanis Ashe (pro sp.),2411,Large,Indoor
+Polygonaceae,1143,Hausknecht's Buckwheat,3742,Trifolium haydenii Porter,2412,Large,Landscape
+Saxifragaceae,1166,Tufted Alpine Saxifrage,3860,Saxifraga nelsoniana D. Don ssp. cascadensis (Calder & Savile) Hult√©n,2413,Large,Outdoor
+Cucurbitaceae,1051,Luffa,3296,Scutellaria ovata Hill ssp. pseudoarguta Epling,2414,Small,Outdoor
+Lamiaceae,1091,Small Coastal Germander,3503,Lewisia cotyledon (S. Watson) B.L. Rob. var. heckneri (Morton) Munz,2415,Small,Outdoor
+Asteraceae,1020,Viper Beggarticks,3144,Gratiola L.,2416,Large,Indoor
+Boraginaceae,1025,Siberian Sea Rosemary,3179,Eriogonum heermannii Durand & Hilg. var. heermannii,2417,Small,Landscape
+Liliaceae,1098,Wild Tulip,3541,Daphnopsis helleriana Urb.,2418,Small,Outdoor
+Orchidaceae,1125,Giant Orchid,3613,Hemidictyum C. Presl,2419,Large,Indoor
+Cactaceae,1032,Roetter's Hedgehog Cactus,3221,Achnatherum hendersonii (Vasey) Barkworth,2420,Large,Indoor
+Ranunculaceae,1155,Arizona Mousetail,3777,Vinca herbacea Waldst. & Kit.,2421,Medium,Indoor
+Fabaceae,1066,European Yellow Lupine,3392,Sicyos herbstii (H. St. John) Telford,2422,Small,Indoor
+Nyctaginaceae,1120,Winged Four O'clock,3591,Heterocyphelium Vain.,2423,Large,Outdoor
+Myrtaceae,1117,Red Ironbark,3578,Piper dilatatum Rich.,2424,Medium,Landscape
+Hydrophyllaceae,1083,Sunloving Phacelia,3475,Prunus ilicifolia (Nutt. ex Hook. & Arn.) D. Dietr. ssp. ilicifolia,2425,Large,Outdoor
+Valerianaceae,1188,Palmer's Cornsalad,3926,Homaliadelphus Dix. & P. Varde,2426,Small,Indoor
+Scrophulariaceae,1167,Desertmountain Blue Eyed Mary,3869,Lonicera √óheckrottii Rehder,2427,Medium,Landscape
+Portulacaceae,1147,Goodding's Fameflower,3759,Arctostaphylos hookeri G. Don,2428,Small,Landscape
+Cucurbitaceae,1051,Lagenaria,3295,Hookeria lucens (Hedw.) Sm.,2429,Large,Outdoor
+Orchidaceae,1125,Small Prescott Orchid,3619,Molendoa hornschuchiana (Hook.) Lindb. ex Limpr.,2430,Medium,Landscape
+Lauraceae,1092,Aniba,3507,Anthoceros adscendens Lehm. & Lindenb.,2431,Large,Landscape
+Parmeliaceae,1129,Parmotrema Lichen,3642,Chionanthus holdridgei (Camp & Monachino) Stearn,2432,Large,Landscape
+Pterobryaceae,1152,Pohl's Pireella Moss,3772,Ulota hutchinsiae (Sm.) Hammar var. hutchinsiae,2433,Medium,Indoor
+Convolvulaceae,1047,Island False Bindweed,3284,Quercus √ósmallii Trel.,2434,Small,Outdoor
+Convolvulaceae,1047,Island False Bindweed,3284,Quercus √óschuettei Trel.,2435,Medium,Landscape
+Violaceae,1191,Isodendrion,3943,Quercus √ópalmeriana A. Camus,2436,Small,Indoor
+Violaceae,1191,Isodendrion,3943,Quercus √óhowellii Tucker,2437,Small,Landscape
+Asteraceae,1020,Sweetsultan,3139,Rosa √ópalustriformis Rydb. (pro sp.),2438,Medium,Indoor
+Scrophulariaceae,1167,Yellow Indian Paintbrush,3894,Viola √óbissellii House,2439,Large,Outdoor
+Apocynaceae,1012,Amatungulu,3037,Hygrohypnum subeugyrium (Renauld & Cardot) Broth.,2440,Medium,Indoor
+Cyperaceae,1053,Limestone Meadow Sedge,3312,Hypnum cupressiforme Hedw. var. julaceum Brid.,2441,Large,Indoor
+Asteraceae,1020,Prostrate Tropic Daisy,3118,Hypotrachyna densirhizinata (Kurok.) Hale,2442,Medium,Landscape
+Piperaceae,1136,Hawai'i Peperomia,3652,Desmanthus illinoensis (Michx.) MacMill. ex B.L. Rob. & Fernald,2443,Large,Indoor
+Fabaceae,1066,Rollins' Clover,3417,Chasmanthium latifolium (Michx.) Yates,2444,Large,Landscape
+Scrophulariaceae,1167,Smooth Penstemon,3888,Aspidotis densa (Brack.) Lellinger,2445,Medium,Indoor
+Brachytheciaceae,1026,Isothecium Moss,3183,Quercus wislizeni A. DC. var. wislizeni,2446,Large,Landscape
+Asteraceae,1020,Thickleaf Ragwort,3141,Galium serpenticum Dempster ssp. puberulum (Piper) Dempster & Ehrend.,2447,Large,Indoor
+Fabaceae,1066,Blue Wild Indigo,3376,Vernonia √óconcinna Gleason (pro sp.),2448,Large,Landscape
+Lobariaceae,1102,Pseudocyphellaria Lichen,3547,Cetraria islandica (L.) Ach. ssp. crispiformis (Rasanen) Karnefelt,2449,Medium,Landscape
+Fabaceae,1066,Elegant Lupine,3391,Calystegia macrostegia (Greene) Brummitt ssp. arida (Greene) Brummitt,2450,Medium,Indoor
+Primulaceae,1150,Yellow Loosestrife,3768,Isodendrion A. Gray,2451,Medium,Outdoor
+Fagaceae,1067,Chisos Red Oak,3437,Isothecium alopecuroides (Dubois) Isov.,2452,Medium,Indoor
+Asteraceae,1020,Hawkweed,3101,Chamaecrista glandulosa (L.) Greene var. glandulosa,2453,Medium,Landscape
+Orchidaceae,1125,Custard Orchid,3612,Jasione L.,2454,Medium,Landscape
+Hydrocharitaceae,1082,Western Waterweed,3466,Simmondsia chinensis (Link) C.K. Schneid.,2455,Large,Outdoor
+Fabaceae,1066,Sonora Lupine,3422,Aquilegia jonesii Parry var. jonesii,2456,Small,Indoor
+Cactaceae,1032,Mooncactus,3219,Cooperia jonesii Cory,2457,Large,Indoor
+Boraginaceae,1025,Wild Comfrey,3181,Julella vitrispora (Cooke & Harkness) M.E. Barr,2458,Small,Indoor
+Asteraceae,1020,Rooseveltweed,3123,Cenchrus agrimonioides Trin. var. agrimonioides,2459,Medium,Indoor
+Asteraceae,1020,Leafy Rockdaisy,3106,Phacelia egena (Greene ex Brand) Greene ex J.T. Howell,2460,Large,Outdoor
+Cistaceae,1042,Virginia Pinweed,3272,Keckiella Straw,2461,Large,Landscape
+Fabaceae,1066,Sweetvetch,3425,Prunus subcordata Benth. var. kelloggii Lemmon,2462,Small,Indoor
+Ericaceae,1063,Blueberry,3349,Senecio eremophilus Richardson var. kingii (Rydb.) Greenm.,2463,Small,Outdoor
+Polygalaceae,1142,Crevajosa,3734,Echinocereus triglochidiatus Engelm.,2464,Small,Indoor
+Capparaceae,1037,Corymbose Caper,3237,Bryum klinggraeffii Schimp.,2465,Medium,Indoor
+Fabaceae,1066,Blunt-leaf Cassia,3377,Bidens asymmetrica (Levl.) Sherff,2466,Large,Indoor
+Polygonaceae,1143,Nevada Buckwheat,3744,Labordia cyrtandrae (Baill.) H. St. John,2467,Large,Outdoor
+Boraginaceae,1025,Thicksepal Cryptantha,3180,Hedyotis schlechtendahliana Steud. ssp. waimeae (Wawra) W.L. Wagner & Lorence,2468,Medium,Indoor
+Brassicaceae,1027,Field Mustard,3190,Carex kraliana Naczi & Bryson,2469,Large,Outdoor
+Parmeliaceae,1129,Dominican Parmotrema Lichen,3633,Spergularia platensis (Camb.) Fenzl,2470,Large,Outdoor
+Rosaceae,1160,Hawthorn,3811,Astragalus lackschewitzii Lavin & H. Marriott,2471,Small,Outdoor
+Poaceae,1140,Mossgrass,3693,Tulipa clusiana DC.,2472,Large,Landscape
+Scrophulariaceae,1167,Pineland False Foxglove,3883,Spiranthes √óitchetuckneensis P.M. Brown,2473,Medium,Indoor
+Asteraceae,1020,Pineland False Sunflower,3115,Schiedeella Schltr.,2474,Large,Indoor
+Cistaceae,1042,Pineland Pinweed,3271,Laelia Lindl.,2475,Small,Outdoor
+Poaceae,1140,Fall Panicgrass,3678,Lagenaria Ser.,2476,Medium,Outdoor
+Asteraceae,1020,Bog Goldenrod,3062,Liatris lancifolia (Greene) Kittell,2477,Medium,Landscape
+Euphorbiaceae,1065,Marble Canyon Spurge,3358,Nectandra coriacea (Sw.) Griseb.,2478,Large,Outdoor
+Rubiaceae,1161,Needleleaf Bluet,3837,Linum elongatum (Small) Winkl.,2479,Medium,Landscape
+Bryaceae,1028,Orthodontium Moss,3212,Leptospermum morrisonii J. Thomp.,2480,Large,Outdoor
+Asteraceae,1020,Woodland Tidytips,3154,Glandularia tenera (Spreng.) Cabrera,2481,Medium,Outdoor
+Polemoniaceae,1141,Towering Jacob's-ladder,3732,Melicope reflexa (H. St. John) T.G. Hartley & B.C. Stone,2482,Large,Indoor
+Viscaceae,1192,Bog Korthal Mistletoe,3945,Perityle rupestris (A. Gray) Shinners var. rupestris,2483,Large,Indoor
+Lamiaceae,1091,Mexican Skullcap,3499,Lecidea plebeja Nyl.,2484,Medium,Outdoor
+Scrophulariaceae,1167,Maritime Eyebright,3879,Lecidella effugiens (Nilson) Knoph & Hertel,2485,Small,Outdoor
+Collemataceae,1045,Luzon Jelly Lichen,3279,Monarda citriodora Cerv. ex Lag. ssp. austromontana (Epling) Scora,2486,Large,Outdoor
+Polygonaceae,1143,White Mountain Buckwheat,3750,Sphagnum lescurii Sull.,2487,Small,Indoor
+Rosaceae,1160,Cherokee Rose,3804,Cordia lima (Desv.) Roem. & Schult.,2488,Large,Indoor
+Parmeliaceae,1129,Parmotrema Lichen,3642,Syringa L.,2489,Small,Landscape
+Myrtaceae,1117,Mottlecah,3576,Liriope Lour.,2490,Large,Indoor
+Leskeaceae,1095,Giant Pseudoleskea Moss,3515,Cyclopeltis semicordata (Sw.) J. Sm.,2491,Medium,Outdoor
+Asteraceae,1020,Field Sowthistle,3086,Carex granularis Muhl. ex Willd.,2492,Large,Outdoor
+Pteridaceae,1151,Fragile Maidenhair,3769,Dicranella lindigiana (Hampe) Mitt.,2493,Medium,Outdoor
+Myristicaceae,1115,Virola,3570,Pedicularis attollens A. Gray ssp. protogyna Pennell,2494,Small,Landscape
+Poaceae,1140,Petioled Fountaingrass,3701,Botrychium simplex E. Hitchc.,2495,Small,Landscape
+Polytrichaceae,1145,Atrichum Moss,3754,Hexastylis arifolia (Michx.) Small var. arifolia,2496,Small,Outdoor
+Malvaceae,1107,Viscid Mallow,3558,Penstemon procerus Douglas ex Graham,2497,Small,Indoor
+Arecaceae,1015,Syagrus,3049,Horkelia fusca Lindl. ssp. pseudocapitata (Rydb. ex Howell) D.D. Keck,2498,Small,Indoor
+Grammitidaceae,1074,Filmy Kihifern,3454,Scleria oligantha Michx.,2499,Medium,Outdoor
+Aizoaceae,1004,Vredenberg Ice Plant,3015,Penstemon fruticosus (Pursh) Greene var. scouleri (Lindl.) Cronquist,2500,Medium,Outdoor
+Blechnaceae,1024,Rooting Chainfern,3163,Phalaris minor Retz.,2501,Small,Landscape
+Cyperaceae,1053,Cherokee Sedge,3305,Hackelia pinetorum (Greene ex A. Gray) I.M. Johnst. var. pinetorum,2502,Large,Landscape
+Scrophulariaceae,1167,Cutleaf Beardtongue,3868,Lobelia √óspeciosa Sweet var. speciosa,2503,Large,Landscape
+Rosaceae,1160,Hawthorn,3811,Trifolium longipes Nutt. ssp. longipes,2504,Small,Landscape
+Aceraceae,1002,Sycamore Maple,3011,Rubus trux Ashe,2505,Large,Outdoor
+Fabaceae,1066,Psophocarpus,3414,Parmotrema louisianae (Hale) Hale,2506,Medium,Indoor
+Liliaceae,1098,Rosepink Zephyrlily,3533,Tridens eragrostoides (Vasey & Scribn.) Nash,2507,Large,Indoor
+Lecideaceae,1094,Lecidea Lichen,3514,Phacelia humilis Torr. & A. Gray var. humilis,2508,Medium,Landscape
+Violaceae,1191,Bog White Violet,3939,Eurybia radula (Aiton) G.L. Nesom,2509,Large,Landscape
+Arthoniaceae,1017,Willey's Dot Lichen,3052,Luehea speciosa Willd.,2510,Small,Indoor
+Poaceae,1140,False Semaphoregrass,3679,Luffa operculata (L.) Cogn.,2511,Large,Indoor
+Rosaceae,1160,Eelkek,3808,Collema furfuraceum (Arnold) Du Rietz var. luzonense (Rasanen) Degel.,2512,Small,Outdoor
+Scrophulariaceae,1167,Coast Indian Paintbrush,3867,Arabis lyrata L.,2513,Small,Landscape
+Chenopodiaceae,1041,Coastal Seepweed,3262,Rorippa curvisiliqua (Hook.) Besser ex Britton var. lyrata (Nutt.) M. Peck ex C.L. Hitchc.,2514,Large,Outdoor
+Euphorbiaceae,1065,Poinsettia,3360,Macleaya R. Br.,2515,Medium,Indoor
+Amblystegiaceae,1007,Amblystegium Moss,3019,Calliergon macounii Karcz. Iixo,2516,Large,Outdoor
+Cladoniaceae,1043,Cup Lichen,3273,Acicarpha tribuloides Juss.,2517,Medium,Landscape
+Oleaceae,1121,Ash,3592,Calyptronoma Griseb.,2518,Small,Indoor
+Rubiaceae,1161,Yunnan Luculia,3841,Curcuma amada Roxb.,2519,Small,Outdoor
+Elatinaceae,1062,Chilean Waterwort,3347,Lithospermum multiflorum Torr. ex A. Gray,2520,Medium,Indoor
+Potamogetonaceae,1148,Fineleaf Pondweed,3762,Cyperus polystachyos Rottb. var. miser K√ºk.,2521,Small,Indoor
+Asteraceae,1020,Elmleaf Goldenrod,3082,Dudleya multicaulis (Rose) Moran,2522,Large,Outdoor
+Fabaceae,1066,Hayden's Clover,3399,Lathyrus polymorphus Nutt. ssp. polymorphus var. hapemanii (A. Nelson) C.L. Hitchc.,2523,Medium,Landscape
+Fabaceae,1066,Gray's Milkpea,3396,Euphorbia aaron-rossii A.H. Holmgren & N.H. Holmgren,2524,Large,Indoor
+Arecaceae,1015,Wai'oli Valley Pritchardia,3050,Euphrasia tetraquetra (Br√©biss.) Arrond.,2525,Small,Outdoor
+Asteraceae,1020,Oregon False Goldenaster,3111,Ardisia Sw.,2526,Small,Outdoor
+Poaceae,1140,Cypress Panicgrass,3674,Downingia concolor Greene var. tricolor (Greene) Jeps.,2527,Medium,Outdoor
+Passifloraceae,1130,Red Passion-flower,3644,Peperomia maxonii C. DC.,2528,Large,Indoor
+Solanaceae,1170,Puerto Rico Raintree,3902,Melanelia olivacea (L.) Eassl.,2529,Large,Indoor
+Polygonaceae,1143,Waldo Buckwheat,3749,Penstemon davidsonii Greene var. menziesii (D.D. Keck) Cronquist,2530,Large,Landscape
+Asteraceae,1020,Coastal Tarweed,3072,Descurainia pinnata (Walter) Britton ssp. menziesii (DC.) Detling,2531,Medium,Outdoor
+Onagraceae,1122,Redspot Clarkia,3601,Plantago australis Lam. ssp. hirtella (Kunth) Rahn,2532,Large,Landscape
+Brassicaceae,1027,Lyrate Rockcress,3194,Salvia longistyla Benth.,2533,Medium,Landscape
+Brassicaceae,1027,Lyrateleaf Yellowcress,3195,Scutellaria potosina Brandegee ssp. platyphylla Epling,2534,Small,Outdoor
+Lythraceae,1105,Pukamole,3552,Usnea michauxii I. Tav.,2535,Small,Landscape
+Saxifragaceae,1166,Heartleaf Saxifrage,3855,Rhynchosia michauxii Vail,2536,Large,Indoor
+Myrsinaceae,1116,Marlberry,3571,Miriquidica leucophaea (Fl√∂rke ex Rabenh.) Hertel & Rambold,2537,Medium,Outdoor
+Campanulaceae,1035,Maroonspot Calicoflower,3231,Miriquidica Hertel & Rambold,2538,Small,Indoor
+Physciaceae,1134,Rosette Lichen,3650,Pennisetum polystachion (L.) Schult.,2539,Medium,Landscape
+Polemoniaceae,1141,Annual Phlox,3722,Apiastrum angustifolium Nutt.,2540,Large,Indoor
+Asteraceae,1020,China Aster,3070,Plagiobothrys jonesii A. Gray,2541,Large,Outdoor
+Crassulaceae,1049,Oregon Stonecrop,3290,Myrsine pukooensis (Levl.) Hosaka,2542,Large,Landscape
+Poaceae,1140,American Common Reed,3662,Monodora Dunal,2543,Small,Landscape
+Boraginaceae,1025,Giant-trumpets,3169,Polystichum calderonense Proctor,2544,Medium,Indoor
+Brassicaceae,1027,Rough Draba,3201,Melica montezumae Piper,2545,Large,Indoor
+Cyperaceae,1053,Crevice Flatsedge,3306,Harrisia martinii (Labour.) Britton,2546,Medium,Indoor
+Rosaceae,1160,Roughfruit Berry,3822,Coleanthus Seidel,2547,Large,Landscape
+Liliaceae,1098,Osceola's Plume,3531,Eucalyptus macrocarpa Hook.,2548,Small,Indoor
+Lamiaceae,1091,Heartleaf Skullcap,3496,Erythrina poeppigiana (Walp.) O.F. Cook,2549,Small,Outdoor
+Hydrocharitaceae,1082,Ottelia,3465,Calyptranthes Sw.,2550,Medium,Indoor
+Asteraceae,1020,Roughleaf Coneflower,3124,Eragrostis lugens Nees,2551,Large,Outdoor
+Micareaceae,1111,Dot Lichen,3566,Cerastium terrae-novae Fernald & Wiegand,2552,Small,Outdoor
+Lamiaceae,1091,Spearmint,3505,Ceanothus gloriosus J.T. Howell var. porrectus J.T. Howell,2553,Small,Outdoor
+Saxifragaceae,1166,Roundleaf Alumroot,3856,Muhlenbergia Schreb.,2554,Large,Outdoor
+Fabaceae,1066,Mountain Immortelle,3406,Muilla S. Watson ex Benth.,2555,Small,Outdoor
+Boraginaceae,1025,Roundleaf Stoneseed,3177,Festuca scabra Vahl,2556,Small,Outdoor
+Lamiaceae,1091,Thistle Sage,3506,Galium munzii Hilend & J.T. Howell,2557,Medium,Landscape
+Symplocaceae,1174,Nispero Cimarron,3907,Abelmoschus moschatus Medik.,2558,Small,Indoor
+Teloschistaceae,1176,Orange Lichen,3909,Mycoporum pycnocarpoides M√ºll. Arg.,2559,Medium,Outdoor
+Crassulaceae,1049,Fingertips,3288,Carex nudata W. Boott,2560,Small,Outdoor
+Fabaceae,1066,Wilson's Milkvetch,3432,Typha angustifolia L.,2561,Medium,Indoor
+Salicaceae,1164,Bog Willow,3849,Chrysopsis linearifolia Semple ssp. linearifolia,2562,Small,Landscape
+Asteraceae,1020,Lanceleaf Blazing Star,3105,Nechamandra alternifolia (Roxb.) Thw.,2563,Small,Indoor
+Saxifragaceae,1166,Threeparted Miterwort,3859,Houstonia acerosa (A. Gray) A. Gray ex Benth. & Hook. f.,2564,Small,Indoor
+Liliaceae,1098,Sexton Mountain Mariposa Lily,3535,Navarretia intertexta (Benth.) Hook. ssp. intertexta,2565,Small,Outdoor
+Peltigeraceae,1132,Chocolate Chip Lichen,3646,Brachythecium nelsonii Grout,2566,Large,Indoor
+Apiaceae,1011,Cedar Breaks Springparsley,3029,Woodwardia areolata (L.) T. Moore,2567,Small,Outdoor
+Campanulaceae,1035,Sierra Calicoflower,3234,Eriogonum deflexum Torr. var. nevadense Reveal,2568,Small,Outdoor
+Myrtaceae,1117,Mountainbay,3577,Allium cernuum Roth var. neomexicanum (Rydb.) J.F. Macbr.,2569,Large,Indoor
+Asteraceae,1020,Pasture Knapweed,3114,Gaura neomexicana Wooton ssp. neomexicana,2570,Small,Outdoor
+Poaceae,1140,Patterson's Bluegrass,3700,Gaura neomexicana Wooton,2571,Medium,Landscape
+Saxifragaceae,1166,Tall Alumroot,3858,Rubus obsessus L.H. Bailey,2572,Medium,Indoor
+Rubiaceae,1161,Coffee,3832,Physaria newberryi A. Gray var. newberryi,2573,Large,Indoor
+Fabaceae,1066,African Locust-bean,3366,Pseuderanthemum variabile (R. Br.) Radlk.,2574,Medium,Indoor
+Apocynaceae,1012,White Rubber Vine,3040,Symplocos lanata Krug & Urb.,2575,Medium,Outdoor
+Annonaceae,1009,Royal False Pawpaw,3025,Festuca subverticillata (Pers.) Alexeev,2576,Large,Indoor
+Ranunculaceae,1155,Royal Knight's-spur,3785,Zizania palustris L. var. interior (Fassett) Dore,2577,Medium,Landscape
+Lecanoraceae,1093,Lecidella Lichen,3511,Phacelia formosula Osterh.,2578,Large,Indoor
+Portulacaceae,1147,Heckner's Lewisia,3760,Acacia notabilis F. Muell.,2579,Small,Outdoor
+Fabaceae,1066,Jamaican Broom,3401,Quercus texana Buckley,2580,Large,Landscape
+Onagraceae,1122,Tall Annual Willowherb,3603,Crataegus okennonii Phipps,2581,Large,Landscape
+Opegraphaceae,1123,Bonpland's Scribble Lichen,3606,Packera quercetorum (Greene) C. Jeffrey,2582,Medium,Outdoor
+Tamaricaceae,1175,Tamarisk,3908,Rubus mundus L.H. Bailey,2583,Medium,Indoor
+Ranunculaceae,1155,Jones' Columbine,3783,Oncoba Forssk.,2584,Small,Landscape
+Boraginaceae,1025,Borage,3164,Erigeron uniflorus L. ssp. eriocephalus (J. Vahl) Cronquist,2585,Large,Indoor
+Poaceae,1140,Gigantochloa,3682,Dryopteris unidentata (Hook. & Arn.) C. Chr.,2586,Large,Outdoor
+Solanaceae,1170,Chinese Desert-thorn,3899,Onosma echioides L.,2587,Large,Indoor
+Fabaceae,1066,Lackschewitz's Milkvetch,3402,Ribes pinetorum Greene,2588,Medium,Landscape
+Juncaceae,1090,Whiteroot Rush,3488,Caloplaca tiroliensis Zahlbr.,2589,Large,Landscape
+Malvaceae,1107,Whitestem Globemallow,3559,Caloplaca fraudans (Th. Fr.) H. Olivier,2590,Medium,Landscape
+Poaceae,1140,Bosc's Panicgrass,3666,Heterotheca oregona (Nutt.) Shinners var. oregona,2591,Large,Outdoor
+Asteraceae,1020,Engelmann's Fleabane,3083,Sedum oreganum Nutt. ssp. tenue R.T. Clausen,2592,Small,Indoor
+Caliciaceae,1033,Soot Lichen,3225,Clematis orientalis L.,2593,Medium,Outdoor
+Papaveraceae,1128,Macleaya,3626,Origanum L.,2594,Medium,Outdoor
+Asteraceae,1020,Costmary,3073,Orthodontium pellucens (Hook.) Bruch & Schimp.,2595,Small,Indoor
+Poaceae,1140,Mourning Lovegrass,3694,Zigadenus densus (Desr.) Fernald,2596,Small,Outdoor
+Lauraceae,1092,Lancewood,3510,Ottelia Pers.,2597,Small,Outdoor
+Portulacaceae,1147,Bostock's Minerslettuce,3758,Arnoglossum ovatum (Walter) H. Rob.,2598,Large,Outdoor
+Brachytheciaceae,1026,Brachythecium Moss,3182,Leucanthemum vulgare Lam.,2599,Small,Landscape
+Pyrenulaceae,1153,Anthracothecium Lichen,3773,Sanicula crassicaulis Poepp. ex DC. var. tripartita (Suksd.) H. Wolff,2600,Large,Landscape
+Asteraceae,1020,Gila Thistle,3089,Ctenitis squamigera (Hook. & Arn.) Copeland,2601,Small,Landscape
+Solanaceae,1170,Earleaf Nightshade,3901,Cladina portentosa (Dufour) Follmann ssp. pacifica (Ahti) Ahti,2602,Medium,Outdoor
+Polemoniaceae,1141,Needleleaf Navarretia,3726,Linum bienne Mill.,2603,Medium,Outdoor
+Malvaceae,1107,Wood's Hau Kuahiwi,3561,Valerianella palmeri Dyal,2604,Small,Landscape
+Fabaceae,1066,Royal Snoutbean,3418,Setaria palmifolia (J. Koenig) Stapf,2605,Large,Outdoor
+Dicranaceae,1055,Lindig's Dicranella Moss,3329,Mappia racemosa Jacq.,2606,Large,Outdoor
+Asteraceae,1020,Arkansas Dozedaisy,3057,Dendropanax laurifolius (Marchal ex Urb.) R.C. Schneid.,2607,Medium,Outdoor
+Scrophulariaceae,1167,Hedgehyssop,3874,Astragalus douglasii (Torr. & A. Gray) A. Gray var. douglasii,2608,Large,Indoor
+Pinaceae,1135,Chinese Red Pine,3651,Plagiobothrys parishii I.M. Johnst.,2609,Large,Outdoor
+Ranunculaceae,1155,Colorado Buttercup,3779,Arabis fernaldiana Rollins var. fernaldiana,2610,Small,Outdoor
+Poaceae,1140,Pumpelly's Brome,3705,Parmelinopsis spumosa (Asah.) Elix & Hale,2611,Small,Outdoor
+Parmeliaceae,1129,Punctelia,3643,Parmelinopsis Elix & Hale,2612,Small,Outdoor
+Parmeliaceae,1129,Punctelia,3643,Parmotrema ultralucens (Krog) Hale,2613,Large,Indoor
+Scrophulariaceae,1167,Purdy's Penstemon,3885,Parmotrema internexum (Nyl.) Hale,2614,Medium,Landscape
+Brassicaceae,1027,Purple Mistress,3200,Parmotrema endosulphureum (Hillm.) Hale,2615,Medium,Outdoor
+Asteraceae,1020,Walter's Aster,3145,Castilleja pilosa (S. Watson) Rydb.,2616,Medium,Outdoor
+Cyperaceae,1053,Walter's Sedge,3325,Penstemon parryi (A. Gray) A. Gray,2617,Small,Outdoor
+Fabaceae,1066,Graying Clover,3397,Chamaesyce parryi (Engelm.) Rydb.,2618,Large,Landscape
+Burseraceae,1029,Chinese White Olive,3214,Heliotropium tenellum (Nutt.) Torr.,2619,Small,Landscape
+Brachytheciaceae,1026,Brachythecium Moss,3182,Centaurea bovina Velen.,2620,Medium,Outdoor
+Rutaceae,1163,Rue,3847,Poa abbreviata R. Br. ssp. pattersonii (Vasey) √Å. L√∂ve & D. L√∂ve & Kapoor,2621,Small,Indoor
+Rosaceae,1160,Tampa Blackberry,3828,Prunus persica (L.) Batsch,2622,Medium,Landscape
+Polygonaceae,1143,Heermann's Buckwheat,3743,Trifolium polymorphum Poir.,2623,Large,Outdoor
+Hymenophyllaceae,1085,Dotted Bristle Fern,3478,Silene tayloriae (B.L. Rob.) Hult√©n,2624,Medium,Outdoor
+Onagraceae,1122,New Mexico Beeblossom,3600,"Lycopodium hickeyi W.H. Wagner, Beitel & Moran",2625,Medium,Landscape
+Chenopodiaceae,1041,Winterfat,3269,Parietaria pensylvanica Muhl. ex Willd.,2626,Medium,Outdoor
+Thymelaeaceae,1181,Heller's Cieneguillo,3914,Pentaclethra Benth.,2627,Small,Landscape
+Asteraceae,1020,Sneezeweed,3136,Ramalina peruviana Ach.,2628,Large,Landscape
+Aspleniaceae,1019,Ruffled Spleenwort,3054,Pennisetum petiolare (Hochst.) Chiov.,2629,Small,Outdoor
+Saxifragaceae,1166,Allegheny Brookfoam,3854,Philoxerus portulacoides A. St. Hil.,2630,Small,Landscape
+Asteraceae,1020,Shadowy Goldenrod,3129,Phlox L.,2631,Medium,Landscape
+Viscaceae,1192,Colorado Desert Mistletoe,3946,Phoenicaulis Nutt.,2632,Small,Landscape
+Dryopteridaceae,1060,Hemidictyum,3338,"Pediomelum piedmontanum J.R. Allison, M.W. Morris & A.N. Egan",2633,Small,Landscape
+Poaceae,1140,Henderson's Needlegrass,3686,Desmanthus pernambucanus (L.) Thell.,2634,Small,Landscape
+Lycopodiaceae,1104,Fir Clubmoss,3549,Rhynchospora pineticola C.B. Clarke,2635,Medium,Outdoor
+Crocyniaceae,1050,Crocynia Lichen,3291,Coryphantha sulcata (Engelm.) Britton & Rose,2636,Small,Outdoor
+Asteraceae,1020,Ward's False Goldenweed,3146,Agalinis divaricata (Chapm.) Pennell,2637,Small,Outdoor
+Hydrophyllaceae,1083,Branching Phacelia,3468,Phoebanthus tenuifolius (Torr. & A. Gray) S.F. Blake,2638,Medium,Landscape
+Asteraceae,1020,Dwarf Mountain Ragwort,3078,Lechea sessiliflora Raf.,2639,Small,Indoor
+Boraginaceae,1025,Onosma,3174,Monotropa hypopitys L.,2640,Small,Indoor
+Boraginaceae,1025,Fulvous Popcornflower,3168,Drosera capillaris Poir.,2641,Medium,Indoor
+Caryophyllaceae,1039,Mouse-ear Chickweed,3253,Triteleia versicolor Hoover,2642,Small,Indoor
+Collemataceae,1045,Rugose Skin Lichen,3280,Paspalum bifidum (Bertol.) Nash,2643,Small,Outdoor
+Brassicaceae,1027,Dudley Bluffs Bladderpod,3188,Chenopodium berlandieri Moq. var. macrocalycium (Aellen) Cronquist,2644,Large,Landscape
+Fabaceae,1066,Spiny Milkvetch,3423,Poeltinula cerebrina (DC.) Hafellner,2645,Large,Indoor
+Polemoniaceae,1141,Smooth Phlox,3730,Pireella pohlii (Schw√§gr.) Cardot,2646,Small,Landscape
+Poaceae,1140,Cotta Grass,3673,Pohlia brevinervis Lindb. & Arnell,2647,Large,Outdoor
+Polemoniaceae,1141,Grayleaf Phlox,3725,Euphorbia pulcherrima Willd. ex Klotzsch,2648,Medium,Landscape
+Parmeliaceae,1129,Ahti's Neofuscelia Lichen,3630,Polysporina urceolata (Anzi) Brodo,2649,Large,Indoor
+Saxifragaceae,1166,Slightstemmed Miterwort,3857,Porpidia K√∂rb.,2650,Large,Indoor
+Fabaceae,1066,Douglas' Silver Lupine,3386,Stellaria porsildii Chinnappa,2651,Large,Indoor
+Apocynaceae,1012,Deviltree,3038,Viburnum nudum L. var. nudum,2652,Medium,Indoor
+Moraceae,1113,Breadfruit,3568,Baccharis texana (Torr. & A. Gray) A. Gray,2653,Medium,Indoor
+Acanthaceae,1000,Britton's Wild Petunia,3002,Erigeron strigosus Muhl. ex Willd. var. septentrionalis (Fernald & Wiegand) Fernald,2654,Medium,Landscape
+Apocynaceae,1012,Herbaceous Periwinkle,3039,Lespedeza leptostachya Engelm.,2655,Small,Indoor
+Liliaceae,1098,Sagebrush Mariposa Lily,3534,Calamovilfa longifolia (Hook.) Scribn. var. magna Scribn. & Merr.,2656,Large,Landscape
+Parmeliaceae,1129,Parmotrema Lichen,3642,Ligustrum L.,2657,Small,Landscape
+Violaceae,1191,Salad Violet,3944,Panicum miliaceum L.,2658,Medium,Indoor
+Asteraceae,1020,Ward's False Goldenweed,3146,Veronica prostrata L.,2659,Large,Outdoor
+Lamiaceae,1091,Broadtooth Hedgenettle,3491,Egletes prostrata (Sw.) Kuntze,2660,Small,Landscape
+Blechnaceae,1024,Netted Chainfern,3162,Pseudocyphellaria crocata (L.) Vain.,2661,Large,Outdoor
+Cucurbitaceae,1051,Herbst's Bur Cucumber,3294,Psophocarpus palustris Desv.,2662,Small,Indoor
+Liliaceae,1098,White False Hellebore,3539,Brunfelsia portoricensis Krug & Urb.,2663,Medium,Indoor
+Rosaceae,1160,New York Dewberry,3817,Lythrum maritimum Kunth,2664,Large,Landscape
+Asteraceae,1020,Salinas Valley Goldfields,3125,Bromus inermis Leyss. ssp. pumpellianus (Scribn.) Wagnon var. pumpellianus (Scribn.) C.L. Hitchc.,2665,Small,Indoor
+Poaceae,1140,Purple Sandgrass,3706,Punctelia subrudecta (Nyl.) Krog,2666,Medium,Outdoor
+Asteraceae,1020,Pussytoes,3119,Punctelia perreticulata (Rasanen) G. Wilh. & Ladd,2667,Small,Landscape
+Apiaceae,1011,Water Cowbane,3035,Penstemon heterophyllus Lindl. ssp. purdyi D.D. Keck,2668,Medium,Indoor
+Ranunculaceae,1155,Columbine,3780,Moricandia arvensis (L.) DC.,2669,Large,Landscape
+Hydrophyllaceae,1083,Saline Valley Phacelia,3473,Triplasis purpurea (Walter) Chapm.,2670,Large,Indoor
+Brassicaceae,1027,Brown Mustard,3187,Antennaria √ómacounii Greene (pro sp.),2671,Medium,Landscape
+Acarosporaceae,1001,Polysporina Lichen,3009,Canbya Parry ex A. Gray,2672,Small,Landscape
+Cyperaceae,1053,Smooth Sawgrass,3321,Pyrenocollema caesium (Nyl.) R.C. Harris,2673,Large,Landscape
+Lecanoraceae,1093,Miriquidica Lichen,3512,Pyrenopsis fuscoatra Fink,2674,Large,Landscape
+Cabombaceae,1031,Fish-grass,3216,Carex √óquebecensis Lepage,2675,Medium,Indoor
+Fabaceae,1066,Brown's Pea,3378,Hieracium glomeratum Froel.,2676,Large,Outdoor
+Cladoniaceae,1043,Transcend Cup Lichen,3275,Flindersia brayleyana F. Muell.,2677,Medium,Outdoor
+Fabaceae,1066,Tarwi,3426,Quillaja Molina,2678,Large,Landscape
+Ramalinaceae,1154,Peruvian Cartilage Lichen,3776,Schismatomma rappii (Zahlbr.) R.C. Harris,2679,Small,Indoor
+Uncertain Ascomycota Family,1186,Heterocyphelium Lichen,3922,Crotalaria alata Buch.-Ham. ex D. Don,2680,Small,Outdoor
+Plantaginaceae,1137,Buckhorn Plantain,3656,Prenanthes √ómainensis A. Gray (pro sp.),2681,Medium,Indoor
+Orchidaceae,1125,Laelia,3617,Aesculus pavia L. var. pavia,2682,Large,Outdoor
+Asteraceae,1020,Ovateleaf Cacalia,3112,Eucalyptus sideroxylon A. Cunn. ex Woolls,2683,Medium,Indoor
+Papaveraceae,1128,Pygmypoppy,3627,Passiflora princeps Lodd.,2684,Medium,Indoor
+Plantaginaceae,1137,Ale,3655,Hesperaloe parviflora (Torr.) J.M. Coult.,2685,Large,Landscape
+Juncaceae,1090,Elliott's Rush,3487,Cornus sericea L. ssp. sericea,2686,Medium,Landscape
+Rosaceae,1160,Peach,3820,Clarkia speciosa F.H. Lewis & M.E. Lewis,2687,Medium,Landscape
+Primulaceae,1150,Spoonleaf Yellow Loosestrife,3767,Reinkella Darbish.,2688,Medium,Outdoor
+Poaceae,1140,Bunch Cutgrass,3667,Helianthus resinosus Small,2689,Medium,Landscape
+Heliconiaceae,1079,Wild Plantain,3461,Thelypteris resinifera (Desv.) Proctor,2690,Large,Landscape
+Asteraceae,1020,Skyblue Aster,3134,Pleopeltis polypodioides (L.) Andrews & Windham,2691,Small,Outdoor
+Rosaceae,1160,Sierra Horkelia,3825,Eriogonum contiguum (Reveal) Reveal,2692,Small,Outdoor
+Amblystegiaceae,1007,Macoun's Calliergon Moss,3022,Hedeoma reverchonii (A. Gray) A. Gray var. reverchonii,2693,Large,Landscape
+Poaceae,1140,Southern Threeawn,3715,Rhachithecium Broth. ex Le Jolis,2694,Small,Outdoor
+Asteraceae,1020,San Joaquin Tarweed,3126,Echinochloa phyllopogon (Stapf) Koso-Pol.,2695,Large,Landscape
+Asteraceae,1020,Western Silver Aster,3149,Selaginella arenicola Underw. ssp. riddellii (Van Eselt.) R. Tryon,2696,Medium,Outdoor
+Piperaceae,1136,Maxon's Peperomia,3654,Lecanora muralis (Schreb.) Rabenh. var. versicolor (Pers.) Tuck.,2697,Small,Landscape
+Parmeliaceae,1129,Melanelia Lichen,3639,Lecanora monticola H. Magn.,2698,Small,Outdoor
+Scrophulariaceae,1167,Menzies' Penstemon,3880,Lecanora dispersoareolata (Schaerer) Lamy,2699,Medium,Outdoor
+Scrophulariaceae,1167,Menzies' Penstemon,3880,Lecanora cinereofusca H. Magn.,2700,Small,Indoor
+Brassicaceae,1027,Menzies' Tansymustard,3196,Lecanora boligera (Norman ex Th. Fr.) Hedl.,2701,Large,Indoor
+Plantaginaceae,1137,Mexican Plantain,3657,Lecanora bicincta Ramond,2702,Small,Landscape
+Lamiaceae,1091,Mexican Sage,3498,Lecanora argopholis (Ach.) Ach.,2703,Small,Landscape
+Liliaceae,1098,Lilyturf,3528,Aspicilia contigua (Lynge) J.W. Thomson,2704,Small,Landscape
+Asteraceae,1020,Queen-devil Hawkweed,3120,Rinodina silicicola de Lesd.,2705,Large,Landscape
+Rutaceae,1163,Queensland Maple,3846,Rinodina milvina (Wahlenb.) Th. Fr.,2706,Medium,Landscape
+Opegraphaceae,1123,Rapp's Schismatomma Lichen,3607,Rinodina lepida (Nyl.) M√ºll. Arg.,2707,Large,Outdoor
+Asteraceae,1020,Oxeye Daisy,3113,Callistemon sieberi DC.,2708,Medium,Indoor
+Apiaceae,1011,Pacific Blacksnakeroot,3032,Eucalyptus camaldulensis Dehnh.,2709,Medium,Indoor
+Piperaceae,1136,Higuillo,3653,Lotus denticulatus (E. Drew) Greene,2710,Medium,Landscape
+Ericaceae,1063,Dacite Manzanita,3351,Lobelia robusta Graham var. portoricensis (A. DC.) McVaugh,2711,Small,Landscape
+Papaveraceae,1128,Spotted Asian Poppy,3628,Roccella decipiens Darbish.,2712,Small,Outdoor
+Euphorbiaceae,1065,Sandmat,3362,Panicum beecheyi Hook. & Arn.,2713,Large,Outdoor
+Arecaceae,1015,Fishtail Palm,3047,Carex petricosa Dewey var. misandroides (Fernald) B. Boivin,2714,Medium,Indoor
+Asteraceae,1020,Greater Knapweed,3093,Euphorbia roemeriana Scheele,2715,Medium,Outdoor
+Porpidiaceae,1146,Crust Porpidia Lichen,3756,Echinocereus √óroetteri (Englem.) Rumpler  √óroetteri ,2716,Small,Landscape
+Rosaceae,1160,Hollyleaf Cherry,3812,Trifolium rollinsii J.M. Gillett,2717,Small,Landscape
+Poaceae,1140,Bur Bristlegrass,3668,Baccharis neglecta Britton,2718,Small,Outdoor
+Fabaceae,1066,Chamaecytisus,3381,Woodwardia radicans (L.) J. Sm.,2719,Small,Landscape
+Rhamnaceae,1157,Mt. Vision Ceanothus,3792,Zephyranthes grandiflora Lindl.,2720,Medium,Outdoor
+Fabaceae,1066,Rattlebox,3415,Physcia tenella (Scop.) DC.,2721,Medium,Outdoor
+Caryophyllaceae,1039,Common Chickweed,3250,Draba asprella Greene var. asprella,2722,Medium,Outdoor
+Cyperaceae,1053,Tawny Cottongrass,3322,Rubus lasiococcus A. Gray,2723,Medium,Landscape
+Fagaceae,1067,Bur Oak,3436,Rudbeckia scabrifolia L.E. Brown,2724,Small,Indoor
+Papaveraceae,1128,Tufted Poppy,3629,Heuchera cylindrica Douglas ex Hook. var. cylindrica,2725,Large,Outdoor
+Polygonaceae,1143,Chiricahua Mountain Dock,3738,Lithospermum obtusifolium I.M. Johnst.,2726,Small,Landscape
+Commelinaceae,1046,Aneilema,3281,Deeringothamnus pulchellus Small,2727,Small,Outdoor
+Polemoniaceae,1141,Southern Gilia,3731,Consolida regalis Gray,2728,Large,Outdoor
+Neckeraceae,1118,Homaliadelphus Moss,3584,Rhynchosia cytisoides (Bertol.) Wilbur,2729,Small,Indoor
+Asteraceae,1020,Tree Seaside Tansy,3143,Ruta L.,2730,Small,Indoor
+Orchidaceae,1125,Autumn Coralroot,3610,Asplenium plenum E.P. St. John ex Small,2731,Large,Landscape
+Fabaceae,1066,Egg Milkvetch,3390,Leptogium rugosum Sierk,2732,Small,Landscape
+Poaceae,1140,Muhly,3695,Calochortus macrocarpus Douglas,2733,Small,Landscape
+Rubiaceae,1161,Yellow Spring Bedstraw,3840,Viola √óesculenta Elliott (pro sp.),2734,Large,Outdoor
+Fagaceae,1067,Bur Oak,3436,Lasthenia leptalea (A. Gray) Ornduff,2735,Large,Landscape
+Lamiaceae,1091,Lemon Beebalm,3497,Phacelia amabilis Constance,2736,Small,Landscape
+Nyctaginaceae,1120,Burrowing Four O'clock,3587,Holocarpha obconica (J.C. Clausen & D.D. Keck) D.D. Keck ssp. obconica,2737,Medium,Indoor
+Betulaceae,1023,Green Alder,3161,Chamaesyce pergamena (Small) Small,2738,Large,Outdoor
+Boraginaceae,1025,Parish's Popcornflower,3175,Tripterocalyx (Torr.) Hook.,2739,Medium,Outdoor
+Rosaceae,1160,Bush's Blackberry,3800,Deinandra minthornii (Jeps.) B.G. Baldw.,2740,Medium,Indoor
+Scrophulariaceae,1167,Shaggy Hedgehyssop,3887,Eriastrum sapphirinum (Eastw.) H. Mason,2741,Large,Outdoor
+Theaceae,1177,Tea,3910,Malus sargentii Rehder,2742,Large,Landscape
+Amblystegiaceae,1007,Macoun's Calliergon Moss,3022,Satureja L.,2743,Medium,Indoor
+Scrophulariaceae,1167,Water Figwort,3892,Penstemon centranthifolius (Benth.) Benth.,2744,Small,Outdoor
+Poaceae,1140,Nodding Fescue,3697,Sphaeralcea coccinea (Nutt.) Rydb. ssp. coccinea,2745,Medium,Indoor
+Violaceae,1191,Downy Yellow Violet,3940,Schaefferia Jacq.,2746,Large,Outdoor
+Caprifoliaceae,1038,Honeysuckle,3242,Acacia schaffneri (S. Watson) F.J. Herm. var. bravoensis Isely,2747,Medium,Indoor
+Umbilicariaceae,1185,Crusty Navel Lichen,3919,Ancistrocactus scheeri (Salm-Dyck) Britton & Rose,2748,Large,Outdoor
+Liliaceae,1098,Fragrant Fritillary,3521,Campylopus schimperi Milde,2749,Small,Indoor
+Loganiaceae,1103,Koolau Range Labordia,3548,Graphis dumastioides Fink,2750,Large,Outdoor
+Apiaceae,1011,Butte Desertparsley,3028,Lipochaeta succulenta (Hook. & Arn.) DC.,2751,Medium,Indoor
+Asteraceae,1020,Green And Gold,3094,Ditrysinia Raf.,2752,Medium,Landscape
+Asteraceae,1020,Flat-top Goldentop,3087,Carex √ózahnii Kneucker,2753,Medium,Indoor
+Amblystegiaceae,1007,Compact Conardia Moss,3020,Cardamine pachystigma (S. Watson) Rollins var. pachystigma,2754,Medium,Indoor
+Liliaceae,1098,Compact Onion,3520,Draba oreibata J.F. Macbr. & Payson ex Payson var. serpentina Tiehm & P.K. Holmgren,2755,Medium,Outdoor
+Fabaceae,1066,Fleshy Lupine,3393,Carex serpenticola P. Zika,2756,Small,Indoor
+Liliaceae,1098,Muilla,3529,Calochortus indecorus Ownbey & M. Peck,2757,Large,Landscape
+Rubiaceae,1161,Butterwick's Starviolet,3831,Solidago sciaphila Steele,2758,Small,Indoor
+Asteraceae,1020,Water Ragwort,3147,Gratiola pilosa Michx.,2759,Medium,Landscape
+Araliaceae,1014,Spikenard,3045,Rhamnus arguta Maxim.,2760,Large,Outdoor
+Lamiaceae,1091,Green Monardella,3495,Argythamnia candicans Sw.,2761,Large,Landscape
+Lamiaceae,1091,Edmonton Hempnettle,3493,Hypericum harperi R. Keller,2762,Small,Outdoor
+Ericaceae,1063,Hooker's Manzanita,3353,Hoffmannseggia oxycarpa Benth. ex A. Gray,2763,Small,Outdoor
+Fagaceae,1067,Daimyo Oak,3438,Jasione montana L.,2764,Large,Outdoor
+Dryopteridaceae,1060,Pacific Lacefern,3342,Eucalyptus nitens (H. Deane & Maiden) Maiden,2765,Small,Landscape
+Monotropaceae,1112,Pinesap,3567,Spiranthes lucida (H.H. Eaton) Ames,2766,Small,Landscape
+Brassicaceae,1027,Tenweeks Stock,3205,Spiraea corymbosa Raf.,2767,Large,Outdoor
+Gentianaceae,1071,Chiricahua Mountain Dwarf Gentian,3450,Hackelia hispida (A. Gray) I.M. Johnst. var. hispida,2768,Small,Indoor
+Cyperaceae,1053,Buxbaum's Sedge,3303,Machaeranthera carnosa (A. Gray) G.L. Nesom,2769,Medium,Indoor
+Poaceae,1140,African Rice,3660,Sanchezia speciosa Leonard,2770,Large,Landscape
+Buxbaumiaceae,1030,Buxbaumia Moss,3215,Dubautia linearis (Gaudich.) D.D. Keck ssp. linearis,2771,Medium,Indoor
+Nyctaginaceae,1120,Sandpuffs,3589,Trisetum sibiricum Rupr.,2772,Large,Outdoor
+Parmeliaceae,1129,Duplicate Tube Lichen,3634,Atriplex sibirica L.,2773,Large,Outdoor
+Verbenaceae,1189,Chiricahua Mountain Mock Vervain,3928,Argusia sibirica (L.) Dandy,2774,Small,Landscape
+Asteraceae,1020,Daisy,3075,Downingia montana Greene,2775,Small,Outdoor
+Cyperaceae,1053,Texan Flatsedge,3323,Horkelia congesta Douglas ex Hook. ssp. nemorosa D.D. Keck,2776,Large,Outdoor
+Valerianaceae,1188,Edwards Plateau Cornsalad,3925,Hypericum parvulum Greene,2777,Large,Indoor
+Fabaceae,1066,Woolly Senna,3433,Dermatocarpon Eschw.,2778,Small,Landscape
+Malpighiaceae,1106,Cafe Falso,3554,Centaurea uniflora Turra ssp. nervosa (Willd.) Bonnier & Layens,2779,Large,Outdoor
+Leucodontaceae,1096,California Antitrichia Moss,3516,Hymenoclea monogyra Torr. & A. Gray,2780,Medium,Landscape
+Poaceae,1140,Palmgrass,3699,Nephroma helveticum Ach. ssp. sipeanum (Gyel.) Goward & Ahti,2781,Medium,Outdoor
+Clusiaceae,1044,Sierra Madre St. Johnswort,3278,Eriogonum siskiyouense Small,2782,Medium,Indoor
+Asteraceae,1020,Santa Susana Tarweed,3127,Gymnopogon P. Beauv.,2783,Large,Landscape
+Berberidaceae,1022,California Barberry,3158,Symphyotrichum oolentangiense (Riddell) G.L. Nesom var. oolentangiense,2784,Small,Landscape
+Rhamnaceae,1157,Sharp-tooth Buckthorn,3793,Polemonium eximium Greene,2785,Medium,Indoor
+Apiaceae,1011,False Snowparsley,3030,Cyclanthera gracillima Cogn.,2786,Large,Landscape
+Verrucariaceae,1190,Silverskin Lichen,3935,Eriogonum gracile Benth.,2787,Large,Landscape
+Apiaceae,1011,Turnip-root Chervil,3034,Mitella caulescens Nutt.,2788,Small,Outdoor
+Polemoniaceae,1141,Sapphire Woollystar,3728,Aristida longespica Poir. var. longespica,2789,Small,Indoor
+Asteraceae,1020,Texas Aster,3140,Sanguisorba minor Scop.,2790,Large,Outdoor
+Calyceraceae,1034,Madam Gorgon,3226,Teucrium cubense Jacq. var. densum Jeps.,2791,Small,Indoor
+Fabaceae,1066,Peanut Clover,3409,Circaea alpina L. ssp. alpina,2792,Medium,Indoor
+Rosaceae,1160,Sargent's Apple,3823,Vulpia microstachys (Nutt.) Munro,2793,Small,Landscape
+Lamiaceae,1091,Savory,3502,Miscanthus oligostachyus Stapf,2794,Large,Outdoor
+Droseraceae,1059,Pink Sundew,3334,Prescotia oligantha (Sw.) Lindl.,2795,Medium,Indoor
+Flacourtiaceae,1068,Cuero De Rana,3444,Sclerocactus parviflorus Clover & Jotter,2796,Medium,Indoor
+Orchidaceae,1125,Shining Lady's Tresses,3618,Polygala nudata Brandegee,2797,Medium,Landscape
+Asteraceae,1020,Gray Rockdaisy,3092,Eriocaulon microcephalum Kunth,2798,Medium,Outdoor
+Arecaceae,1015,Manac,3048,Mentha √ósmithiana Graham,2799,Medium,Landscape
+Cladoniaceae,1043,Pacific Reindeer Lichen,3274,Eucalyptus nitida Hook. f.,2800,Large,Landscape
+Aceraceae,1002,California Boxelder,3010,"Bidens laevis (L.) Britton, Sterns & Poggenb.",2801,Large,Outdoor
+Scrophulariaceae,1167,Waxleaf Penstemon,3893,Penstemon subglaber Rydb.,2802,Small,Outdoor
+Euphorbiaceae,1065,Sharpleaf Silverbush,3364,Phlox glaberrima L.,2803,Large,Outdoor
+Flacourtiaceae,1068,Oncoba,3445,Marattia laevis Sm.,2804,Medium,Landscape
+Poaceae,1140,Florida Gamagrass,3680,Cladium mariscoides (Muhl.) Torr.,2805,Small,Outdoor
+Caprifoliaceae,1038,American Black Elderberry,3239,Rhus glabra L.,2806,Large,Landscape
+Orobanchaceae,1126,California Broomrape,3622,Helenium amarum (Raf.) H. Rock var. badium (A. Gray ex S. Watson) Waterf.,2807,Medium,Indoor
+Asteraceae,1020,California Helianthella,3063,Achillea ptarmica L.,2808,Small,Landscape
+Poaceae,1140,Wedgescale,3716,Castilleja nivea Pennell & Ownbey,2809,Large,Indoor
+Poaceae,1140,Wedgescale,3716,Synthyris reniformis (Douglas ex Benth.) Benth. var. cordata A. Gray,2810,Medium,Landscape
+Hookeriaceae,1081,Hookeria Moss,3463,Acacia boomanii Maiden,2811,Small,Indoor
+Liliaceae,1098,White Fawnlily,3540,Solorinella Anzi,2812,Medium,Outdoor
+Scrophulariaceae,1167,Scarlet Bugler,3886,Koeleria vallesiana (Honck.) Gaudin,2813,Large,Landscape
+Pottiaceae,1149,Hornschuch's Molendoa Moss,3764,Lupinus arizonicus (S. Watson) S. Watson ssp. sonorensis Christian & D. Dunn,2814,Large,Landscape
+Cladoniaceae,1043,Cup Lichen,3273,Cyphelium brachysporum Nadv.,2815,Large,Landscape
+Clusiaceae,1044,Sharplobe St. Johnswort,3277,Saltugilia australis (H. Mason & A.D. Grant) L.A. Johnson,2816,Medium,Outdoor
+Linaceae,1100,Pale Flax,3545,Eucalyptus botryoides Sm.,2817,Large,Landscape
+Trypetheliaceae,1183,Confused Astrothelium Lichen,3917,Lepidium austrinum Small,2818,Small,Outdoor
+Sphagnaceae,1172,Lescur's Sphagnum,3905,Phacelia austromontana J.T. Howell,2819,Small,Landscape
+Malvaceae,1107,Scarlet Globemallow,3556,Aristida simpliciflora Chapm.,2820,Small,Indoor
+Boraginaceae,1025,Parish's Popcornflower,3175,Anulocaulis leiosolenus (Torr.) Standl. var. howardii Spellenb. & Wootten,2821,Medium,Indoor
+Zingiberaceae,1194,Mango Ginger,3951,Mentha spicata L.,2822,Large,Landscape
+Asteraceae,1020,Arrowleaf Balsamroot,3058,Aralia L.,2823,Small,Outdoor
+Anthocerotaceae,1010,Hornwort,3026,Astragalus kentrophyta A. Gray var. danaus (Barneby) Barneby,2824,Small,Indoor
+Eriocaulaceae,1064,Smallhead Pipewort,3356,Lysimachia mauritiana Lam.,2825,Small,Landscape
+Porpidiaceae,1146,Porpidia Lichen,3757,Roemeria refracta DC.,2826,Large,Outdoor
+Cucurbitaceae,1051,California Manroot,3292,Eutrochium maculatum (L.) E.E. Lamont var. bruneri (A. Gray) E.E. Lamont,2827,Medium,Landscape
+Papaveraceae,1128,California Poppy,3625,Centaurea stoebe L. ssp. micranthos (Gugler) Hayek,2828,Large,Landscape
+Liliaceae,1098,Lady Tulip,3527,Ribes divaricatum Douglas,2829,Medium,Indoor
+Caryophyllaceae,1039,Apetalous Catchfly,3245,Torilis arvensis (Huds.) Link,2830,Large,Outdoor
+Polygonaceae,1143,Goodman's Buckwheat,3741,Arctostaphylos stanfordiana Parry,2831,Large,Outdoor
+Liliaceae,1098,Agapanthus,3519,Hygrophila corymbosa (Blume) Lindau,2832,Small,Outdoor
+Poaceae,1140,Munnik Fescue,3696,Maianthemum stellatum (L.) Link,2833,Small,Indoor
+Oleaceae,1121,Hueso Prieto,3593,Astragalus praelongus Sheldon var. lonchopus Barneby,2834,Small,Outdoor
+Fabaceae,1066,Downy Beach Pea,3387,Minuartia L.,2835,Medium,Outdoor
+Orchidaceae,1125,Texas Crested Coralroot,3620,Fragaria √óananassa (Weston) Duchesne ex Rozier (pro sp.),2836,Large,Indoor
+Rubiaceae,1161,Munz's Bedstraw,3836,Hippeastrum striatum (Lam.) H.E. Moore,2837,Small,Indoor
+Sphagnaceae,1172,Girgensohn's Sphagnum,3904,Diplazium striatum (L.) C. Presl,2838,Medium,Outdoor
+Ericaceae,1063,Western Azalea,3355,Pedicularis sudetica Willd. ssp. interior (Hult√©n) Hult√©n,2839,Large,Landscape
+Asteraceae,1020,Singleflower Knapweed,3132,Eriogonum umbellatum Torr. var. modocense (Greene) S. Stokes,2840,Small,Indoor
+Iridaceae,1088,Yellowleaf Iris,3485,Vitis aestivalis Michx. var. aestivalis,2841,Large,Outdoor
+Onagraceae,1122,Small Enchanter's Nightshade,3602,Phemeranthus parviflorus (Nutt.) Kiger,2842,Small,Indoor
+Boraginaceae,1025,Lija,3170,Phacelia vallis-mortae J. Voss var. heliophila (J.F. Macbr.) J. Voss,2843,Small,Indoor
+Flacourtiaceae,1068,Caloncoba,3443,Amberboa moschata (L.) DC.,2844,Large,Outdoor
+Orthotrichaceae,1127,Hutchins' Ulota Moss,3624,Hedysarum L.,2845,Medium,Indoor
+Linaceae,1100,Asian Flax,3543,Syagrus Mart.,2846,Small,Outdoor
+Violaceae,1191,Alakai Swamp Violet,3938,Acer pseudoplatanus L.,2847,Medium,Indoor
+Caprifoliaceae,1038,Twinberry Honeysuckle,3244,Heuchera chlorantha Piper,2848,Medium,Landscape
+Caryophyllaceae,1039,Peel River Catchfly,3254,Epilobium brachycarpum C. Presl,2849,Medium,Indoor
+Verbenaceae,1189,White Vervain,3934,Tamarix dioica Roxb. ex Roth,2850,Small,Indoor
+Liliaceae,1098,Texas False Garlic,3538,Rubus audax L.H. Bailey,2851,Small,Landscape
+Fagaceae,1067,Hybrid Oak,3440,Lupinus mutabilis Sweet,2852,Small,Landscape
+Fabaceae,1066,Florida Hoarypea,3394,Eriophorum virginicum L.,2853,Large,Outdoor
+Ruppiaceae,1162,Widgeonweed,3842,Camellia sinensis (L.) Kuntze var. sinensis,2854,Large,Outdoor
+Pottiaceae,1149,Convoluted Barbula Moss,3763,Matthiola incana (L.) W.T. Aiton,2855,Small,Outdoor
+Cyperaceae,1053,Florida Keys Nutrush,3308,Cyperus polystachyos Rottb. var. texensis (Torr.) Fernald,2856,Large,Outdoor
+Hydrophyllaceae,1083,Calthaleaf Phacelia,3469,Symphyotrichum eulae (Shinners) G.L. Nesom,2857,Small,Indoor
+Liliaceae,1098,Pinto Triteleia,3532,Hexalectris warnockii Ames & Correll,2858,Small,Landscape
+Malvaceae,1107,Musk Okra,3555,Nothoscordum texanum M.E. Jones,2859,Large,Outdoor
+Cladoniaceae,1043,Cup Lichen,3273,Opuntia engelmannii Salm-Dyck ex Engelm. var. lindheimeri (Engelm.) Parfitt & Pinkava,2860,Large,Outdoor
+Rosaceae,1160,Oldfield Dewberry,3819,Thaumatococcus Benth.,2861,Medium,Landscape
+Convolvulaceae,1047,Wright's Morning-glory,3285,Thelidium minimum (A. Massal. ex K√∂rb.) Arnold,2862,Large,Outdoor
+Asteraceae,1020,White Prairie Aster,3151,Theobroma angustifolium Moc. & Sess√© ex DC.,2863,Large,Indoor
+Fabaceae,1066,Florida Milkvetch,3395,Carex macloviana d'Urv.,2864,Small,Outdoor
+Dipterocarpaceae,1057,Camphor,3332,Senecio crassulus A. Gray,2865,Small,Landscape
+Scrophulariaceae,1167,Chiricahua Mountain Mudwort,3866,Cryptantha crassisepala (Torr. & A. Gray) Greene,2866,Small,Outdoor
+Boraginaceae,1025,Manyflowered Stoneseed,3172,Salvia carduacea Benth.,2867,Medium,Indoor
+Agavaceae,1003,Twistleaf Yucca,3014,Mitella trifida Graham var. trifida,2868,Medium,Indoor
+Poaceae,1140,Woodland Tribisee,3720,Citharexylum tristachyum Turcz.,2869,Large,Outdoor
+Asteraceae,1020,Goatsbeard,3090,Elatine triandra Schkuhr,2870,Small,Indoor
+Asteraceae,1020,Canada Goldenrod,3064,Packera tridenticulata (Rydb.) W.A. Weber & √Å. L√∂ve,2871,Large,Outdoor
+Fagaceae,1067,Hybrid Oak,3440,Desmodium sericophyllum Schltdl.,2872,Large,Landscape
+Scrophulariaceae,1167,Allegheny Monkeyflower,3863,Amaranthus cannabinus (L.) Sauer,2873,Large,Landscape
+Cactaceae,1032,Texas Pricklypear,3224,Malus toringo (Siebold) Siebold ex de Vriese,2874,Large,Landscape
+Cactaceae,1032,Smallflower Fishhook Cactus,3223,Tortula subulata Hedw.,2875,Medium,Outdoor
+Fabaceae,1066,Sharppod Rushpea,3420,Polemonium foliosissimum A. Gray var. foliosissimum,2876,Medium,Landscape
+Ericaceae,1063,Eastwood's Manzanita,3352,Cladonia transcendens (Vain.) Vain.,2877,Large,Outdoor
+Asteraceae,1020,Canada Lettuce,3065,Borrichia arborescens (L.) DC.,2878,Medium,Landscape
+Oleaceae,1121,Lilac,3594,Tricardia Torr. ex S. Watson,2879,Large,Landscape
+Cactaceae,1032,Kingcup Cactus,3218,Tricharia cretacea Vezda,2880,Small,Outdoor
+Brassicaceae,1027,Fringepod,3191,Trichodon cylindricus (Hedw.) Schimp.,2881,Medium,Outdoor
+Polygalaceae,1142,Smallflower Milkwort,3735,Trichostomum sinaloense (E.B. Bartram) R.H. Zander,2882,Large,Indoor
+Verbenaceae,1189,Threespike Fiddlewood,3931,Richardia brasiliensis Gomes,2883,Small,Indoor
+Onagraceae,1122,Glaucus Willowherb,3599,Woodsia √ótryonis B. Boivin,2884,Large,Landscape
+Campanulaceae,1035,Dane's Blood,3227,Githopsis tenella Morin,2885,Small,Indoor
+Rosaceae,1160,Woolly Cinquefoil,3830,Verbena rigida Spreng.,2886,Medium,Indoor
+Fabaceae,1066,Twoflower Rattlebox,3428,Saxifraga caespitosa L. ssp. subgemmifera Engl. & Irmsch.,2887,Medium,Indoor
+Caryophyllaceae,1039,Porsild's Starwort,3255,Eschscholzia caespitosa Benth.,2888,Medium,Indoor
+Fabaceae,1066,Arcane Milkvetch,3369,Chaerophyllum bulbosum L.,2889,Large,Outdoor
+Salicaceae,1164,Diamondleaf Willow,3850,Lonicera involucrata (Richardson) Banks ex Spreng. var. involucrata,2890,Small,Landscape
+Fabaceae,1066,Alefeld's Pea,3367,Yucca pallida McKelvey,2891,Medium,Indoor
+Fagaceae,1067,Hybrid Oak,3440,Crotalaria biflora L.,2892,Small,Indoor
+Fagaceae,1067,Hybrid Oak,3440,Astragalus bisulcatus (Hook.) A. Gray var. bisulcatus,2893,Medium,Indoor
+Fabaceae,1066,Twogrooved Milkvetch,3429,Heuchera elegans Abrams,2894,Small,Outdoor
+Rosaceae,1160,Hybrid Rose,3813,Hedysarum boreale Nutt. ssp. boreale,2895,Large,Indoor
+Dryopteridaceae,1060,Duss' Tonguefern,3337,Atriplex cuneata A. Nelson ssp. cuneata,2896,Medium,Landscape
+Asteraceae,1020,Dwarf Alpine Hawksbeard,3077,Atriplex cuneata A. Nelson,2897,Medium,Outdoor
+Poaceae,1140,Downy Danthonia,3675,Schiedea nuttallii Hook.,2898,Small,Indoor
+Bryaceae,1028,Green's Pohlia Moss,3209,Chamaesyce multiformis (Gaudich. ex Hook. & Arn.) Croizat & O. Deg. var. multiformis,2899,Small,Landscape
+Poaceae,1140,Wildrye,3718,Wikstroemia sandwicensis Meisn.,2900,Medium,Landscape
+Myrtaceae,1117,Southern Mahogany,3583,Clematis viorna L.,2901,Small,Landscape
+Violaceae,1191,Hybrid Violet,3942,Senna lindheimeriana (Scheele) Irwin & Barneby,2902,Large,Landscape
+Poaceae,1140,Northern Wildrice,3698,Abutilon theophrasti Medik.,2903,Medium,Outdoor
+Elatinaceae,1062,Threestamen Waterwort,3348,Houstonia purpurea L. var. calycosa A. Gray,2904,Large,Landscape
+Poaceae,1140,Woolly Fingergrass,3721,Verbena √óperriana Moldenke,2905,Medium,Indoor
+Caryophyllaceae,1039,Canadian Sandspurry,3249,Bidens campylotheca Sch. Bip.,2906,Large,Indoor
+Fabaceae,1066,Dwarf Stickpea,3389,"Lechea maritima Leggett ex Britton, Sterns & Poggenb. var. virginica Hodgdon",2907,Medium,Landscape
+Teloschistaceae,1176,Orange Lichen,3909,Virola theiodora (Spruce ex Benth.) Warb.,2908,Small,Landscape
+Hydrophyllaceae,1083,Northpark Phacelia,3472,Bastardia viscosa (L.) Kunth,2909,Medium,Landscape
+Brassicaceae,1027,Aleutian Draba,3185,Lampranthus vredenbergensis L. Bolus,2910,Small,Landscape
+Betulaceae,1023,Asian White Birch,3160,Pritchardia perlmanii C.E. Gemmill,2911,Medium,Indoor
+Asteraceae,1020,Singlewhorl Burrobrush,3133,Eriogonum pendulum S. Watson,2912,Medium,Outdoor
+Myrtaceae,1117,Coolabah,3573,Phoenicaulis cheiranthoides Nutt.,2913,Medium,Outdoor
+Fabaceae,1066,Candelabra Wattle,3379,Symphyotrichum walteri (Alexander) G.L. Nesom,2914,Large,Outdoor
+Araliaceae,1014,Flynn's 'ohe,3043,Carex striata Michx. var. brevis L.H. Bailey,2915,Small,Indoor
+Crassulaceae,1049,Candleholder Liveforever,3287,Oonopsis wardii (A. Gray) Greene,2916,Medium,Outdoor
+Fabaceae,1066,Arctic Locoweed,3370,Oxypolis filiformis (Walter) Britton,2917,Large,Outdoor
+Caryophyllaceae,1039,Western Fringed Catchfly,3258,Scrophularia umbrosa Dumort.,2918,Large,Landscape
+Cyperaceae,1053,Capitate Sedge,3304,Senecio hydrophilus Nutt.,2919,Medium,Indoor
+Caryophyllaceae,1039,Western Pearlwort,3259,Penstemon nitidus Douglas ex Benth. var. nitidus,2920,Large,Landscape
+Celastraceae,1040,Schaefferia,3261,Sphenopholis Scribn.,2921,Large,Landscape
+Fabaceae,1066,Schaffner's Wattle,3419,Sphenopholis √ópallens (Biehler) Scribn. (pro sp.),2922,Medium,Outdoor
+Scrophulariaceae,1167,Granite Hedgehyssop,3872,Rhododendron occidentale (Torr. & A. Gray) A. Gray var. occidentale,2923,Medium,Outdoor
+Solanaceae,1170,Downy Desert-thorn,3900,Silene nuda (S. Watson) C.L. Hitchc. & Maguire ssp. nuda,2924,Small,Landscape
+Campanulaceae,1035,Downy Lobelia,3228,Sagina decumbens (Elliott) Torr. & A. Gray ssp. occidentalis (S. Watson) Crow,2925,Small,Landscape
+Salicaceae,1164,Arctic Willow,3848,Ammoselinum giganteum J.M. Coult. & Rose,2926,Small,Landscape
+Zingiberaceae,1194,Cardamom,3950,Eurybia conspicua (Lindl.) G.L. Nesom,2927,Medium,Landscape
+Asteraceae,1020,Carelessweed,3066,Symphyotrichum sericeum (Vent.) G.L. Nesom,2928,Large,Outdoor
+Linaceae,1100,Laredo Flax,3544,Elodea nuttallii (Planch.) H. St. John,2929,Small,Landscape
+Cactaceae,1032,Scheer's Fishhook Cactus,3222,Thinopyrum √Å. L√∂ve,2930,Large,Indoor
+Lamiaceae,1091,Dwarf False Pennyroyal,3492,Atriplex elegans (Moq.) D. Dietr. var. thornberi M.E. Jones,2931,Medium,Outdoor
+Saxifragaceae,1166,Urnflower Alumroot,3861,Saxifraga flagellaris Willd. ex Sternb. ssp. flagellaris Willd. ex Sternb. [excluded],2932,Large,Indoor
+Zygophyllaceae,1195,Caribbean Caltrop,3952,Boltonia asteroides (L.) L'H√©r. var. asteroides,2933,Large,Outdoor
+Mycoporaceae,1114,Mycoporum Lichen,3569,Veratrum album L. ssp. album,2934,Small,Indoor
+Cyperaceae,1053,Naked Sedge,3315,Erythronium albidum Nutt.,2935,Small,Indoor
+Asteraceae,1020,Narrowleaf Goldenaster,3108,Limnanthes alba Hartw. ex Benth.,2936,Large,Landscape
+Nephromataceae,1119,Sipe's Kidney Lichen,3585,Eriogonum gracilipes S. Watson,2937,Small,Landscape
+Poaceae,1140,Caribbean Fingergrass,3669,Symphyotrichum falcatum (Lindl.) G.L. Nesom var. commutatum (Torr. & A. Gray) G.L. Nesom,2938,Small,Outdoor
+Asteraceae,1020,Arizona Ragwort,3056,Landolphia owariensis P. Beauv.,2939,Large,Outdoor
+Asteraceae,1020,Woolly Fleabane,3155,Verbena urticifolia L. var. leiocarpa L.M. Perry & Fernald,2940,Large,Landscape
+Campanulaceae,1035,Lobelia,3230,Juncus brachycarpus Engelm.,2941,Large,Landscape
+Fabaceae,1066,Notable Wattle,3407,Sphaeralcea munroana (Douglas) Spach ssp. subrhomboidea (Rydb.) Kearney,2942,Medium,Outdoor
+Amaranthaceae,1006,Tidalmarsh Amaranth,3018,Ruppia L.,2943,Medium,Indoor
+Asteraceae,1020,Chisos Mountain Brickellbush,3071,Cynoglossum virginianum L.,2944,Medium,Outdoor
+Rosaceae,1160,Littlehead Horkelia,3815,Dietes grandiflora N.E. Br.,2945,Small,Outdoor
+Orchidaceae,1125,Lady's Tresses,3616,Heliconia deflexa G.S. Daniels & F.G. Stiles,2946,Large,Landscape
+Typhaceae,1184,Narrowleaf Cattail,3918,Tulipa sylvestris L.,2947,Medium,Outdoor
+Dicranaceae,1055,Schimper's Campylopus Moss,3330,Elymus pendulina (Nevski) Tzvel.,2948,Small,Outdoor
+Nyctaginaceae,1120,Australasian Catchbirdtree,3586,Arthonia willeyi Tuck.,2949,Small,Outdoor
+Amblystegiaceae,1007,Hygrohypnum Moss,3021,Astragalus lentiginosus Douglas ex Hook. var. wilsonii (Greene) Barneby,2950,Large,Indoor
+Graphidaceae,1075,Script Lichen,3456,Lolium rigidum Gaudin,2951,Medium,Outdoor
+Asteraceae,1020,King's Ragwort,3103,Cyrtandra sessilis H. St. John & Storey,2952,Small,Landscape
+Fagaceae,1067,Nuttall Oak,3442,Callirhoe digitata Nutt.,2953,Small,Outdoor
+Polygonaceae,1143,Siskiyou Buckwheat,3746,Eriogonum alatum Torr. var. glabriusculum Torr.,2954,Small,Outdoor
+Parmeliaceae,1129,Parmelinopsis,3641,Mirabilis alipes (S. Watson) Pilz,2955,Medium,Landscape
+Lycopodiaceae,1104,Pennsylvania Clubmoss,3550,Ludwigia decurrens Walter,2956,Large,Landscape
+Iridaceae,1088,Dwarf Iris,3483,Krascheninnikovia Guldenstaedt,2957,Large,Landscape
+Urticaceae,1187,Pennsylvania Pellitory,3924,"Oenothera wolfii (Munz) P.H. Raven, W. Dietr. & Stubbe",2958,Small,Outdoor
+Rosaceae,1160,O'kennon's Hawthorn,3818,Hibiscadelphus woodii D.H. Lorence & W.L. Wagner,2959,Small,Outdoor
+Cuscutaceae,1052,Globe Dodder,3299,Dryopteris √óleedsii Wherry,2960,Large,Indoor
+Asteraceae,1020,Carolina Elephantsfoot,3067,Lactuca floridana (L.) Gaertn. var. villosa (Jacq.) Cronquist,2961,Medium,Outdoor
+Ranunculaceae,1155,Carolina Larkspur,3778,Monolopia gracilens A. Gray,2962,Small,Outdoor
+Acanthaceae,1000,Carolina Scalystem,3003,Layia gaillardioides (Hook. & Arn.) DC.,2963,Small,Indoor
+Asteraceae,1020,Seaside Nehe,3128,Lasiacis sorghoidea (Desv. ex Ham.) Hitchc. & Chase var. patentiflora (Hitchc. & Chase) Davidse,2964,Small,Outdoor
+Marantaceae,1108,Thaumatococcus,3563,Potentilla hippiana Lehm.,2965,Medium,Indoor
+Euphorbiaceae,1065,Sebastian-bush,3363,Digitaria eriantha Steud. ssp. pentzii (Stent) Kok,2966,Medium,Landscape
+Poaceae,1140,Carpetgrass,3670,Erigeron lanatus Hook.,2967,Small,Landscape
+Parmeliaceae,1129,Hypotrachyna Lichen,3636,Senna hirsuta (L.) Irwin & Barneby var. hirsuta,2968,Large,Indoor
+Asteraceae,1020,Elliott's Goldenrod,3081,Ipomoea wrightii A. Gray,2969,Large,Indoor
+Fabaceae,1066,Copaifera,3383,Thelypodium wrightii A. Gray,2970,Large,Indoor
+Cyperaceae,1053,Quebec Sedge,3317,Pertusaria wulfenioides de Lesd.,2971,Medium,Landscape
+Poaceae,1140,Pitchfork Crowngrass,3702,Wullschlaegelia Rchb. f.,2972,Medium,Outdoor
+Brassicaceae,1027,Southern Pepperwort,3204,Aquilegia flavescens S. Watson,2973,Small,Indoor
+Asteraceae,1020,Oneflower Fleabane,3110,Nymphoides peltata (S.G. Gmel.) Kuntze,2974,Small,Landscape
+Apiaceae,1011,Western Sandparsley,3036,Castilleja flava S. Watson var. flava,2975,Large,Indoor
+Lamiaceae,1091,Smith's Mint,3504,Lysimachia √óproducta (A. Gray) Fernald (pro sp.),2976,Large,Outdoor
+Fabaceae,1066,Illinois Bundleflower,3400,Astragalus flavus Nutt.,2977,Large,Landscape
+Asteraceae,1020,Threetooth Ragwort,3142,Galium verum L.,2978,Large,Outdoor
+Hydrophyllaceae,1083,Southern Sierra Phacelia,3474,Anemone ranunculoides L.,2979,Large,Indoor
+Campanulaceae,1035,Sheepbit,3233,Eriastrum luteum (Benth.) H. Mason,2980,Small,Indoor
+Ramalinaceae,1154,Cartilage Lichen,3775,Holocarpha virgata (A. Gray) D.D. Keck ssp. virgata,2981,Medium,Outdoor
+Cyperaceae,1053,Littlehead Nutrush,3313,Iris chrysophylla Howell,2982,Medium,Indoor
+Onagraceae,1122,New Mexico Beeblossom,3600,Huperzia taxifolia (Sw.) Trevis.,2983,Large,Outdoor
+Asteraceae,1020,Oak Creek Ragwort,3109,Cienfuegosia yucatanensis Millsp.,2984,Small,Indoor
+Fabaceae,1066,Ticktrefoil,3427,Luculia intermedia Hutch.,2985,Medium,Outdoor
+Brassicaceae,1027,Wright's Thelypody,3207,Catapyrenium zahlbruckneri (Hasse) J.W. Thomson,2986,Small,Outdoor
+Aristolochiaceae,1016,Littlebrownjug,3051,Sisyrinchium rosulatum E.P. Bicknell - europe,20281,Large,Outdoor
+Poaceae,1140,Littleseed Canarygrass,3689,Isoetes melanospora Engelm. - ,20981,Large,Outdoor
+Fagaceae,1067,Interior Live Oak,3441,Quercus macrocarpa Michx. - 12m,21251,Large,Outdoor
+Graphidaceae,1075,Elegant Script Lichen,3455,Calystegia macrostegia (Greene) Brummitt ssp. arida (Greene) Brummitt - lei,24501,Small,Outdoor
+Fabaceae,1066,Yellow Milkvetch,3434,Isodendrion A. Gray Light,24511,Large,Outdoor
+Poaceae,1140,Amazon Sprangletop,3661,Calliergon macounii Karcz.,25161,Large,Landscape
+Brassicaceae,1027,Wallflower Phoenicaulis,3206,Penstemon davidsonii Greene var. menziesii (D.D. Keck) Cronquist Asia,25301,Small,Indoor
+Araceae,1013,Chinese Taro,3041,Plagiobothrys parishii I.M. Johnst. F21,26091,Large,Landscape
+Bryaceae,1028,Bryum Moss,3208,Hieracium glomeratum Froel. Xx,26761,Medium,Indoor
+Rosaceae,1160,Quillaja,3821,Rinodina milvina (Wahlenb.) Th. Fr. South Americas,27061,Small,Landscape
+Brassicaceae,1027,Park Rockcress,3198,Anulocaulis leiosolenus (Torr.) Standl. var. howardii Spellenb. & Wootten Africa,28211,Large,Landscape
+Lauraceae,1092,Canelillo,3509,Oonopsis wardii (A. Gray) Greene g23,29161,Large,Indoor
+Hypnaceae,1086,Hypnum Moss,3479,Astragalus lentiginosus Douglas ex Hook. var. wilsonii (Greene) Barneby - fea,29501,Medium,Indoor
