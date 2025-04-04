@@ -6,9 +6,10 @@ from api.routes import reports, customers
 
 app = FastAPI(
     title="Data Consultant Report API",
-    version="0.1.0",
-    description="Automatisk PDF-rapportgenerering og kundehåndtering"
+    version="1.0.0",
+    description="📊 Automatisk PDF-rapportgenerering med professionelt layout, datavisualisering og e-mailafsendelse"
 )
+
 
 app.add_middleware(
     CORSMiddleware,

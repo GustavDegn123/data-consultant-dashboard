@@ -1,13 +1,22 @@
-import matplotlib.pyplot as plt
-import geopandas as gpd
 import pandas as pd
+import plotly.express as px
+import plotly.io as pio
 
-def plot_country_sales(sales_by_country):
-    fig, ax = plt.subplots(figsize=(12, 6))
-    sales_by_country.plot(kind="bar", ax=ax, title="Salg pr. land")
-    ax.set_ylabel("USD")
-    ax.set_xlabel("Land")
-    plt.tight_layout()
+def plot_country_sales(sales_by_country, save_path=None):
+    if isinstance(sales_by_country, pd.Series):
+        sales_by_country = sales_by_country.reset_index()
+        sales_by_country.columns = ["Land", "USD"]
+
+    # Konverter til string hvis nødvendigt
+    if pd.api.types.is_period_dtype(sales_by_country["Land"]):
+        sales_by_country["Land"] = sales_by_country["Land"].astype(str)
+
+    fig = px.bar(sales_by_country, x="Land", y="USD", title="Salg pr. land")
+    fig.update_layout(template="plotly_white", xaxis_title="Land", yaxis_title="USD")
+
+    if save_path:
+        pio.write_image(fig, save_path, width=1000, height=600)
+
     return fig
 
 def plot_customer_map(df):

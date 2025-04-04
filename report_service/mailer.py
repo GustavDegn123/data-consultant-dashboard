@@ -3,7 +3,6 @@ import smtplib
 import os
 from dotenv import load_dotenv
 
-# Indlæs variabler fra .env
 load_dotenv()
 
 def send_email(to_address, subject, body, attachment_path=None):
@@ -19,6 +18,11 @@ def send_email(to_address, subject, body, attachment_path=None):
             file_name = os.path.basename(attachment_path)
         msg.add_attachment(file_data, maintype="application", subtype="pdf", filename=file_name)
 
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-        smtp.login(os.getenv("EMAIL_SENDER"), os.getenv("EMAIL_PASSWORD"))
-        smtp.send_message(msg)
+    try:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+            smtp.login(os.getenv("EMAIL_SENDER"), os.getenv("EMAIL_PASSWORD"))
+            smtp.send_message(msg)
+            print(f"✅ E-mail sendt til {to_address}")
+    except Exception as e:
+        print(f"❌ E-mail fejlede: {e}")
+
