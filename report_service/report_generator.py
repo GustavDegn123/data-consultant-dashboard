@@ -7,6 +7,7 @@ from report_service.mailer import send_email
 from report_service.customer_manager import get_customer_info
 from scripts.load_data import load_accounts, load_plant_hierarchy, load_sales_data
 from scripts.preprocess import convert_date_column, join_data
+from pathlib import Path
 from scripts.analysis import (
     plot_monthly_sales, top_products_by_sales, top_customers, sales_by_country,
     avg_price_and_cost, product_profit_margin, top_product_families, calculate_key_metrics
@@ -22,6 +23,8 @@ from scripts.plots import geo_plots as gp
 
 REPORT_DIR = "generated_reports"
 os.makedirs(REPORT_DIR, exist_ok=True)
+
+LOGO_PATH = Path("utills/klarlogo.jpeg")
 
 def generate_figures(df, prefix):
     image_paths = []
@@ -127,11 +130,18 @@ def generate_pdf_report(customer_id):
             self.set_font("Arial", "I", 8)
             self.cell(0, 10, f"Side {self.page_no()}/{{nb}}", align="C")
 
-    # === Generér hovedrapport ===
     pdf = CustomPDF()
     pdf.set_auto_page_break(auto=True, margin=15)
     pdf.alias_nb_pages()
     pdf.add_page()
+
+# Logo
+    if LOGO_PATH.exists():
+        pdf.image(str(LOGO_PATH), x=80, y=20, w=50)
+    else:
+        print("⚠️ Logo ikke fundet:", LOGO_PATH.resolve())
+
+    pdf.ln(60)  # Flyt teksten ned
     pdf.set_font("Arial", "B", 20)
     pdf.cell(0, 15, "Salgsrapport", ln=True, align="C")
     pdf.set_font("Arial", size=12)
@@ -140,8 +150,7 @@ def generate_pdf_report(customer_id):
     pdf.cell(0, 10, f"Dato: {datetime.now().strftime('%Y-%m-%d')}", ln=True)
     pdf.ln(10)
     pdf.multi_cell(0, 10, "Denne rapport giver overblik over virksomhedens salgsdata og performance.")
-    if os.path.exists("logo.png"):
-        pdf.image("logo.png", x=10, y=10, w=30)
+
 
     toc_entries = [("Nøglemetrics", pdf.page_no() + 1)]
     add_key_metrics_page(pdf, metrics)
@@ -155,33 +164,37 @@ def generate_pdf_report(customer_id):
         pdf.multi_cell(0, 8, desc)
         pdf.image(img_path, x=10, y=40, w=180)
 
-    # Gem hoved-pdf midlertidigt
     tmp_path = "_tmp_report.pdf"
     pdf.output(tmp_path)
 
-    # Generér TOC som separat PDF
     toc_pdf = FPDF()
     toc_pdf.set_auto_page_break(auto=True, margin=15)
     toc_pdf.alias_nb_pages()
     add_table_of_contents(toc_pdf, toc_entries)
     toc_stream = BytesIO(toc_pdf.output(dest='S').encode("latin1"))
 
-    # Flet og arranger sider
     merger = PdfMerger()
-    merger.append(tmp_path, pages=(0, 1))  # Forside
-    merger.append(toc_stream)              # TOC
+    merger.append(tmp_path, pages=(0, 1))
+    merger.append(toc_stream)
     total_pages = len(PdfReader(tmp_path).pages)
-    merger.append(tmp_path, pages=(1, total_pages))  # Resten
+    merger.append(tmp_path, pages=(1, total_pages))
 
     output_path = os.path.join(REPORT_DIR, f"report_{customer_id}.pdf")
     with open(output_path, "wb") as f:
         merger.write(f)
 
     send_email(
-        to_address=email,
-        subject="Din ugentlige salgsrapport",
-        body="Hej!\n\nSe vedhæftede PDF med jeres nyeste salgsanalyse.\n\nBedste hilsner,\nData Consultant Team",
-        attachment_path=output_path
-    )
+    to_address=email,
+    subject="Din ugentlige salgsrapport",
+    body="""
+        Hej!
+
+        Se vedhæftede PDF med jeres nyeste salgsanalyse.
+
+        Bedste hilsner,
+        Data Consultant Team
+    """,
+    attachment_path=output_path
+)
 
     return output_path
