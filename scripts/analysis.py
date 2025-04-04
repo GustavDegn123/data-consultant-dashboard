@@ -3,6 +3,36 @@ import pandas as pd
 import plotly.express as px
 import plotly.io as pio
 
+def calculate_key_metrics(df):
+    total_sales = df["Sales_USD"].sum()
+    total_orders = df.shape[0]
+    avg_price = df["Price_USD"].mean()
+
+    # Top kunde
+    top_customer = df.groupby("Account")["Sales_USD"].sum().sort_values(ascending=False).head(1)
+    top_customer_name = top_customer.index[0]
+    top_customer_sales = top_customer.values[0]
+
+    # Top produkt
+    top_product = df.groupby("Product_Name")["Sales_USD"].sum().sort_values(ascending=False).head(1)
+    top_product_name = top_product.index[0]
+    top_product_sales = top_product.values[0]
+
+    # Pareto (andel fra top 10 kunder)
+    sales_by_customer = df.groupby("Account")["Sales_USD"].sum().sort_values(ascending=False)
+    top_10_pct = sales_by_customer.head(10).sum() / sales_by_customer.sum() * 100
+
+    return {
+        "total_sales": round(total_sales, 2),
+        "total_orders": total_orders,
+        "avg_price": round(avg_price, 2),
+        "top_customer": top_customer_name,
+        "top_customer_sales": round(top_customer_sales, 2),
+        "top_product": top_product_name,
+        "top_product_sales": round(top_product_sales, 2),
+        "top_10_pct": round(top_10_pct, 1)
+    }
+
 def plot_monthly_sales(df, date_col="Date_Time", value_col="Sales_USD", save_path=None):
     df[date_col] = pd.to_datetime(df[date_col], errors="coerce")
     monthly_sales = df.groupby(df[date_col].dt.to_period("M"))[value_col].sum().reset_index()

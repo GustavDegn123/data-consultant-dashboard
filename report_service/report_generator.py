@@ -12,7 +12,8 @@ from scripts.analysis import (
     sales_by_country,
     avg_price_and_cost,
     product_profit_margin,
-    top_product_families
+    top_product_families,
+    calculate_key_metrics
 )
 from scripts.metrics import time_metrics as tm
 from scripts.metrics import product_metrics as pm
@@ -32,7 +33,7 @@ def generate_figures(df, prefix):
     def save(fig_func, *args, suffix, **kwargs):
         path = os.path.join(REPORT_DIR, f"{prefix}_{suffix}.png")
         fig_func(*args, save_path=path, **kwargs)
-        image_paths.append(path)
+        image_paths.append((suffix, path))
 
     # ANALYSIS.PY
     save(plot_monthly_sales, df, suffix="monthly_sales")
@@ -44,40 +45,70 @@ def generate_figures(df, prefix):
     save(top_product_families, df, suffix="top_families")
 
     # TIME PLOTS
-    monthly_sales = tm.sales_over_time(df, "M")
-    save(tp.plot_series, monthly_sales, "Månedlig omsætning", "Måned", "USD", suffix="time_monthly_sales")
-
-    monthly_orders = tm.order_counts_over_time(df, "M")
-    save(tp.plot_series, monthly_orders, "Ordrer pr. måned", "Måned", "Antal ordrer", suffix="time_orders")
-
-    avg_price = tm.avg_price_over_time(df, "M")
-    save(tp.plot_series, avg_price, "Gns. pris over tid", "Måned", "USD", suffix="avg_price_over_time")
-
-    weekday_sales = tm.sales_by_weekday(df)
-    save(tp.plot_series, weekday_sales, "Omsætning pr. ugedag", "Ugedag", "USD", suffix="weekday_sales")
+    save(tp.plot_series, tm.sales_over_time(df, "M"), "Månedlig omsætning", "Måned", "USD", suffix="time_monthly_sales")
+    save(tp.plot_series, tm.order_counts_over_time(df, "M"), "Ordrer pr. måned", "Måned", "Antal ordrer", suffix="time_orders")
+    save(tp.plot_series, tm.avg_price_over_time(df, "M"), "Gns. pris over tid", "Måned", "USD", suffix="avg_price_over_time")
+    save(tp.plot_series, tm.sales_by_weekday(df), "Omsætning pr. ugedag", "Ugedag", "USD", suffix="weekday_sales")
 
     # PRODUCT PLOTS
-    size_sales = pm.sales_by_product_size(df)
-    save(pp.plot_bar_series, size_sales, "Salg pr. størrelse", "Størrelse", "USD", suffix="product_size_sales")
-
-    fam_sales = pm.sales_by_family(df).head(10)
-    save(pp.plot_bar_series, fam_sales, "Top familier", "Familie", "USD", suffix="product_families")
-
-    trend_data = pm.product_sales_trend(df)
-    save(pp.plot_trend, trend_data, "Produkttrends", "Måned", "Salg i USD", suffix="product_trends")
+    save(pp.plot_bar_series, pm.sales_by_product_size(df), "Salg pr. størrelse", "Størrelse", "USD", suffix="product_size_sales")
+    save(pp.plot_bar_series, pm.sales_by_family(df).head(10), "Top familier", "Familie", "USD", suffix="product_families")
+    save(pp.plot_trend, pm.product_sales_trend(df), "Produkttrends", "Måned", "Salg i USD", suffix="product_trends")
 
     # CUSTOMER PLOTS
-    top_cust = cm.top_customers_by_sales(df)
-    save(cp.plot_bar, top_cust, "Top kunder", "Kunde", "USD", suffix="top_customers_by_sales")
-
-    pareto = cm.pareto_analysis(df)
-    save(cp.plot_line, pareto, "Pareto (80/20)", "Kunde (sorteret)", "Andel", suffix="pareto")
+    save(cp.plot_bar, cm.top_customers_by_sales(df), "Top kunder", "Kunde", "USD", suffix="top_customers_by_sales")
+    save(cp.plot_line, cm.pareto_analysis(df), "Pareto (80/20)", "Kunde (sorteret)", "Andel", suffix="pareto")
 
     # GEO PLOTS
-    country_sales = gm.sales_by_country(df)
-    save(gp.plot_country_sales, country_sales, suffix="geo_sales_by_country")
+    save(gp.plot_country_sales, gm.sales_by_country(df), suffix="geo_sales_by_country")
 
     return image_paths
+
+def add_key_metrics_page(pdf: FPDF, metrics: dict):
+    pdf.add_page()
+    pdf.set_font("Arial", "B", 16)
+    pdf.cell(0, 10, "Nøglemetrics", ln=True)
+    pdf.set_font("Arial", size=12)
+    pdf.ln(5)
+    pdf.multi_cell(0, 8, (
+        "Herunder ses en opsummering af de vigtigste salgsnøgletal "
+        "for den analyserede periode. Disse tal giver et hurtigt overblik "
+        "over virksomhedens præstation."
+    ))
+    pdf.ln(5)
+
+    pdf.set_font("Arial", size=12)
+    col1 = 60
+    col2 = 100
+
+    pdf.cell(col1, 10, "Total omsætning:", ln=0)
+    pdf.cell(col2, 10, f"{metrics['total_sales']:,} USD", ln=1)
+
+    pdf.cell(col1, 10, "Antal ordrer:", ln=0)
+    pdf.cell(col2, 10, str(metrics['total_orders']), ln=1)
+
+    pdf.cell(col1, 10, "Gennemsnitlig pris:", ln=0)
+    pdf.cell(col2, 10, f"{metrics['avg_price']:.2f} USD", ln=1)
+
+    pdf.cell(col1, 10, "Top kunde:", ln=0)
+    pdf.cell(col2, 10, f"{metrics['top_customer']} ({metrics['top_customer_sales']:,} USD)", ln=1)
+
+    pdf.cell(col1, 10, "Top produkt:", ln=0)
+    pdf.cell(col2, 10, f"{metrics['top_product']} ({metrics['top_product_sales']:,} USD)", ln=1)
+
+    pdf.cell(col1, 10, "Andel fra top 10 kunder:", ln=0)
+    pdf.cell(col2, 10, f"{metrics['top_10_pct']}%", ln=1)
+
+def add_table_of_contents(pdf: FPDF, toc_entries: list):
+    pdf.add_page()
+    pdf.set_font("Arial", "B", 16)
+    pdf.cell(0, 10, "Indholdsfortegnelse", ln=True)
+    pdf.set_font("Arial", size=12)
+    pdf.ln(5)
+    for i, (title, page_num) in enumerate(toc_entries, 1):
+        dots = "." * (50 - len(title))
+        line = f"{i}. {title} {dots} {page_num}"
+        pdf.cell(0, 8, line, ln=True)
 
 def generate_pdf_report(customer_id):
     customer = get_customer_info(customer_id)
@@ -87,17 +118,15 @@ def generate_pdf_report(customer_id):
     name = customer["name"]
     email = customer["email"]
 
-    # Load og merge data
     accounts = load_accounts()
     products = load_plant_hierarchy()
     sales = load_sales_data()
     sales = convert_date_column(sales)
     merged_df = join_data(sales, accounts, products)
 
-    # Generer figurer og få stier
+    metrics = calculate_key_metrics(merged_df)
     image_paths = generate_figures(merged_df, prefix=customer_id)
 
-    # Tekstbeskrivelser pr. figur
     descriptions = [
         ("Månedligt salg", "Viser den samlede omsætning pr. måned. Bruges til at identificere vækstmønstre."),
         ("Top produkter", "De bedst sælgende produkter i perioden."),
@@ -118,7 +147,6 @@ def generate_pdf_report(customer_id):
         ("Salg pr. land (geo)", "Geografisk fordeling af omsætning."),
     ]
 
-    # Opret PDF-klasse med footer
     class CustomPDF(FPDF):
         def footer(self):
             self.set_y(-15)
@@ -130,7 +158,6 @@ def generate_pdf_report(customer_id):
     pdf.alias_nb_pages()
     pdf.add_page()
 
-    # Første side med intro
     pdf.set_font("Arial", "B", 20)
     pdf.cell(0, 15, "Salgsrapport", ln=True, align="C")
     pdf.set_font("Arial", size=12)
@@ -140,21 +167,25 @@ def generate_pdf_report(customer_id):
     pdf.ln(10)
     pdf.multi_cell(0, 10, "Denne rapport giver overblik over virksomhedens salgsdata, nøgleprodukter, kunder og geografisk performance. Den er genereret automatisk baseret på jeres seneste data.")
 
-    # Evt. indsæt logo
     logo_path = "logo.png"
     if os.path.exists(logo_path):
         pdf.image(logo_path, x=10, y=10, w=30)
 
-    # Tilføj alle figurer med titler og tekster
-    for (title, desc), img_path in zip(descriptions, image_paths):
+    toc_entries = [("Nøglemetrics", pdf.page_no() + 1)]
+
+    add_key_metrics_page(pdf, metrics)
+
+    for idx, ((title, desc), (suffix, img_path)) in enumerate(zip(descriptions, image_paths), start=1):
         pdf.add_page()
+        toc_entries.append((title, pdf.page_no()))
         pdf.set_font("Arial", "B", 14)
         pdf.cell(0, 10, title, ln=True)
         pdf.set_font("Arial", size=11)
         pdf.multi_cell(0, 8, desc)
         pdf.image(img_path, x=10, y=40, w=180)
 
-    # Gem og send
+    add_table_of_contents(pdf, toc_entries)
+
     output_path = os.path.join(REPORT_DIR, f"report_{customer_id}.pdf")
     pdf.output(output_path)
 
@@ -166,4 +197,3 @@ def generate_pdf_report(customer_id):
     )
 
     return output_path
-
