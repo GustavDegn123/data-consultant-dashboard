@@ -1,29 +1,10 @@
-CUSTOMERS = {
-    "pilot001": {
-        "name": "Gustav Degn",
-        "email": "gustavdegn@hotmail.dk",
-        "report_config": {
-            "sections": [
-                "key_metrics",
-                "insights",
-                "time_analysis",
-                "product_analysis",
-                "geo_analysis"
-            ]
-        }
-    },
-    "test_customer": {
-        "name": "Testkunde A/S",
-        "email": "gustavdegn@hotmail.dk",
-        "report_config": {
-            "sections": [
-                "key_metrics",
-                "product_analysis"
-            ]
-        }
-    }
-}
+from report_service.config_db import load_customer_config
 
+from report_service.config_db import load_customer_config
 
 def get_customer_info(customer_id):
-    return CUSTOMERS.get(customer_id)
+    data = load_customer_config(customer_id)
+    if data:
+        return data
+    return None
+
