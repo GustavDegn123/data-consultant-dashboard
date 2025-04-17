@@ -10,7 +10,6 @@ app = FastAPI(
     description="📊 Automatisk PDF-rapportgenerering med professionelt layout, datavisualisering og e-mailafsendelse"
 )
 
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

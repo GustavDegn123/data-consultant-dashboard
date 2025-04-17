@@ -89,6 +89,16 @@ def add_table_of_contents(pdf, toc_entries):
         line = f"{i}. {title} {dots} {page_num}"
         pdf.cell(0, 8, line, ln=True)
 
+def add_chapter_page(pdf, title):
+    pdf.add_page()
+    pdf.set_fill_color(240, 240, 240)
+    pdf.rect(0, 0, 210, 297, 'F')  # lys baggrund (A4)
+    pdf.set_font("Arial", "B", 24)
+    pdf.set_text_color(30, 30, 30)
+    pdf.set_y(120)
+    pdf.cell(0, 20, title, ln=True, align="C")
+    pdf.set_text_color(0, 0, 0)
+
 def generate_pdf_report(customer_id):
     customer = get_customer_info(customer_id)
     if not customer:
@@ -135,13 +145,13 @@ def generate_pdf_report(customer_id):
     pdf.alias_nb_pages()
     pdf.add_page()
 
-# Logo
+    # Forside
     if LOGO_PATH.exists():
         pdf.image(str(LOGO_PATH), x=80, y=20, w=50)
     else:
         print("⚠️ Logo ikke fundet:", LOGO_PATH.resolve())
 
-    pdf.ln(60)  # Flyt teksten ned
+    pdf.ln(60)
     pdf.set_font("Arial", "B", 20)
     pdf.cell(0, 15, "Salgsrapport", ln=True, align="C")
     pdf.set_font("Arial", size=12)
@@ -151,28 +161,43 @@ def generate_pdf_report(customer_id):
     pdf.ln(10)
     pdf.multi_cell(0, 10, "Denne rapport giver overblik over virksomhedens salgsdata og performance.")
 
-
     toc_entries = [("Nøglemetrics", pdf.page_no() + 1)]
     add_key_metrics_page(pdf, metrics)
 
-    for (title, desc), (suffix, img_path) in zip(descriptions, image_paths):
-        pdf.add_page()
-        toc_entries.append((title, pdf.page_no()))
-        pdf.set_font("Arial", "B", 14)
-        pdf.cell(0, 10, title, ln=True)
-        pdf.set_font("Arial", size=11)
-        pdf.multi_cell(0, 8, desc)
-        pdf.image(img_path, x=10, y=40, w=180)
+    # Kapitelopdeling
+    chapter_structure = {
+        "1. Generelt overblik": [0, 1, 2, 3, 4, 5, 6],
+        "2. Tidsbaseret analyse": [7, 8, 9, 10],
+        "3. Produktanalyse": [11, 12, 13],
+        "4. Kundesegmentering": [14, 15],
+        "5. Geografisk fordeling": [16]
+    }
 
+    for chapter_title, indices in chapter_structure.items():
+        add_chapter_page(pdf, chapter_title)
+        toc_entries.append((chapter_title, pdf.page_no()))
+        for i in indices:
+            (title, desc), (suffix, img_path) = descriptions[i], image_paths[i]
+            pdf.add_page()
+            toc_entries.append((title, pdf.page_no()))
+            pdf.set_font("Arial", "B", 14)
+            pdf.cell(0, 10, title, ln=True)
+            pdf.set_font("Arial", size=11)
+            pdf.multi_cell(0, 8, desc)
+            pdf.image(img_path, x=10, y=40, w=180)
+
+    # Midlertidig PDF
     tmp_path = "_tmp_report.pdf"
     pdf.output(tmp_path)
 
+    # Indholdsfortegnelse separat
     toc_pdf = FPDF()
     toc_pdf.set_auto_page_break(auto=True, margin=15)
     toc_pdf.alias_nb_pages()
     add_table_of_contents(toc_pdf, toc_entries)
     toc_stream = BytesIO(toc_pdf.output(dest='S').encode("latin1"))
 
+    # Merge: Forside + ToC + resten
     merger = PdfMerger()
     merger.append(tmp_path, pages=(0, 1))
     merger.append(toc_stream)
@@ -184,17 +209,18 @@ def generate_pdf_report(customer_id):
         merger.write(f)
 
     send_email(
-    to_address=email,
-    subject="Din ugentlige salgsrapport",
-    body="""
+        to_address=email,
+        subject="Din ugentlige salgsrapport",
+        body="""
         Hej!
 
         Se vedhæftede PDF med jeres nyeste salgsanalyse.
 
         Bedste hilsner,
         Data Consultant Team
-    """,
-    attachment_path=output_path
-)
+        """,
+        attachment_path=output_path
+    )
 
     return output_path
+
