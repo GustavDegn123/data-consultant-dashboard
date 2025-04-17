@@ -1,3 +1,5 @@
+# --- report_generator.py ---
+
 import os
 from io import BytesIO
 from datetime import datetime
@@ -23,12 +25,10 @@ from scripts.plots import geo_plots as gp
 
 REPORT_DIR = "generated_reports"
 os.makedirs(REPORT_DIR, exist_ok=True)
-
 LOGO_PATH = Path("utills/klarlogo.jpeg")
 
 def generate_figures(df, prefix):
     image_paths = []
-
     def save(fig_func, *args, suffix, **kwargs):
         path = os.path.join(REPORT_DIR, f"{prefix}_{suffix}.png")
         fig_func(*args, save_path=path, **kwargs)
@@ -51,7 +51,6 @@ def generate_figures(df, prefix):
     save(cp.plot_bar, cm.top_customers_by_sales(df), "Top kunder", "Kunde", "USD", suffix="top_customers_by_sales")
     save(cp.plot_line, cm.pareto_analysis(df), "Pareto (80/20)", "Kunde (sorteret)", "Andel", suffix="pareto")
     save(gp.plot_country_sales, gm.sales_by_country(df), suffix="geo_sales_by_country")
-
     return image_paths
 
 def add_key_metrics_page(pdf, metrics):
@@ -60,9 +59,7 @@ def add_key_metrics_page(pdf, metrics):
     pdf.cell(0, 10, "Nøglemetrics", ln=True)
     pdf.set_font("Arial", size=12)
     pdf.ln(5)
-    pdf.multi_cell(0, 8, (
-        "Herunder ses en opsummering af de vigtigste salgsnøgletal for den analyserede periode."
-    ))
+    pdf.multi_cell(0, 8, "Herunder ses en opsummering af de vigtigste salgsnøgletal for den analyserede periode.")
     pdf.ln(5)
     col1, col2 = 60, 100
     pdf.cell(col1, 10, "Total omsætning:", ln=0)
@@ -78,6 +75,29 @@ def add_key_metrics_page(pdf, metrics):
     pdf.cell(col1, 10, "Andel fra top 10 kunder:", ln=0)
     pdf.cell(col2, 10, f"{metrics['top_10_pct']}%", ln=1)
 
+def generate_insights(metrics):
+    insights = []
+    if metrics["top_product_sales"] and metrics["total_sales"]:
+        pct = round((metrics["top_product_sales"] / metrics["total_sales"]) * 100, 1)
+        insights.append(f"Topproduktet stod for {pct}% af den samlede omsætning.")
+    if "top_10_pct" in metrics:
+        pct = float(metrics["top_10_pct"])
+        if pct > 80:
+            insights.append(f"Top 10 kunder stod for hele {pct}% af omsætningen - høj koncentration.")
+        elif pct > 60:
+            insights.append(f"Top 10 kunder bidrog med {pct}% af omsætningen - en stor andel.")
+        else:
+            insights.append(f"Top 10 kunder udgjorde {pct}% af omsætningen - relativt bredt fordelt.")
+    if metrics["avg_price"]:
+        avg = round(metrics["avg_price"], 2)
+        if avg > 500:
+            insights.append(f"Gennemsnitsprisen ligger på {avg} USD - relativt højt niveau.")
+        elif avg < 100:
+            insights.append(f"Gennemsnitsprisen er lav ({avg} USD) - måske lavprisstrategi?")
+        else:
+            insights.append(f"Gennemsnitsprisen er {avg} USD - inden for normalt interval.")
+    return insights
+
 def add_table_of_contents(pdf, toc_entries):
     pdf.add_page()
     pdf.set_font("Arial", "B", 16)
@@ -86,13 +106,12 @@ def add_table_of_contents(pdf, toc_entries):
     pdf.ln(5)
     for i, (title, page_num) in enumerate(toc_entries, 1):
         dots = "." * (50 - len(title))
-        line = f"{i}. {title} {dots} {page_num}"
-        pdf.cell(0, 8, line, ln=True)
+        pdf.cell(0, 8, f"{i}. {title} {dots} {page_num}", ln=True)
 
 def add_chapter_page(pdf, title):
     pdf.add_page()
     pdf.set_fill_color(240, 240, 240)
-    pdf.rect(0, 0, 210, 297, 'F')  # lys baggrund (A4)
+    pdf.rect(0, 0, 210, 297, 'F')
     pdf.set_font("Arial", "B", 24)
     pdf.set_text_color(30, 30, 30)
     pdf.set_y(120)
@@ -103,8 +122,11 @@ def generate_pdf_report(customer_id):
     customer = get_customer_info(customer_id)
     if not customer:
         raise ValueError(f"Kunde med id '{customer_id}' findes ikke.")
+
     name = customer["name"]
     email = customer["email"]
+    config = customer.get("report_config", {})
+    sections = config.get("sections", [])
 
     accounts = load_accounts()
     products = load_plant_hierarchy()
@@ -131,7 +153,7 @@ def generate_pdf_report(customer_id):
         ("Produkttrends", "Udvikling i produkter over tid."),
         ("Top kunder (bar)", "Visuel fordeling af topkunder."),
         ("Pareto-analyse", "80/20 fordeling af kunder og salg."),
-        ("Salg pr. land (geo)", "Geografisk fordeling."),
+        ("Salg pr. land (geo)", "Geografisk fordeling.")
     ]
 
     class CustomPDF(FPDF):
@@ -145,11 +167,8 @@ def generate_pdf_report(customer_id):
     pdf.alias_nb_pages()
     pdf.add_page()
 
-    # Forside
     if LOGO_PATH.exists():
         pdf.image(str(LOGO_PATH), x=80, y=20, w=50)
-    else:
-        print("⚠️ Logo ikke fundet:", LOGO_PATH.resolve())
 
     pdf.ln(60)
     pdf.set_font("Arial", "B", 20)
@@ -161,22 +180,29 @@ def generate_pdf_report(customer_id):
     pdf.ln(10)
     pdf.multi_cell(0, 10, "Denne rapport giver overblik over virksomhedens salgsdata og performance.")
 
-    toc_entries = [("Nøglemetrics", pdf.page_no() + 1)]
-    add_key_metrics_page(pdf, metrics)
+    toc_entries = []
 
-    # Kapitelopdeling
-    chapter_structure = {
-        "1. Generelt overblik": [0, 1, 2, 3, 4, 5, 6],
-        "2. Tidsbaseret analyse": [7, 8, 9, 10],
-        "3. Produktanalyse": [11, 12, 13],
-        "4. Kundesegmentering": [14, 15],
-        "5. Geografisk fordeling": [16]
-    }
+    if "key_metrics" in sections:
+        toc_entries.append(("Nøglemetrics", pdf.page_no() + 1))
+        add_key_metrics_page(pdf, metrics)
 
-    for chapter_title, indices in chapter_structure.items():
-        add_chapter_page(pdf, chapter_title)
-        toc_entries.append((chapter_title, pdf.page_no()))
-        for i in indices:
+    if "insights" in sections:
+        insights = generate_insights(metrics)
+        if insights:
+            pdf.add_page()
+            toc_entries.append(("Kommentarer & indsigter", pdf.page_no()))
+            pdf.set_font("Arial", "B", 14)
+            pdf.cell(0, 10, "Kommentarer & indsigter", ln=True)
+            pdf.set_font("Arial", size=12)
+            pdf.ln(5)
+            for insight in insights:
+                pdf.multi_cell(0, 8, f"- {insight}")
+                pdf.ln(1)
+
+    if "time_analysis" in sections:
+        add_chapter_page(pdf, "2. Tidsbaseret analyse")
+        toc_entries.append(("2. Tidsbaseret analyse", pdf.page_no()))
+        for i in [7, 8, 9, 10]:
             (title, desc), (suffix, img_path) = descriptions[i], image_paths[i]
             pdf.add_page()
             toc_entries.append((title, pdf.page_no()))
@@ -186,18 +212,41 @@ def generate_pdf_report(customer_id):
             pdf.multi_cell(0, 8, desc)
             pdf.image(img_path, x=10, y=40, w=180)
 
-    # Midlertidig PDF
+    if "product_analysis" in sections:
+        add_chapter_page(pdf, "3. Produktanalyse")
+        toc_entries.append(("3. Produktanalyse", pdf.page_no()))
+        for i in [11, 12, 13]:
+            (title, desc), (suffix, img_path) = descriptions[i], image_paths[i]
+            pdf.add_page()
+            toc_entries.append((title, pdf.page_no()))
+            pdf.set_font("Arial", "B", 14)
+            pdf.cell(0, 10, title, ln=True)
+            pdf.set_font("Arial", size=11)
+            pdf.multi_cell(0, 8, desc)
+            pdf.image(img_path, x=10, y=40, w=180)
+
+    if "geo_analysis" in sections:
+        add_chapter_page(pdf, "4. Geografisk fordeling")
+        toc_entries.append(("4. Geografisk fordeling", pdf.page_no()))
+        i = 16
+        (title, desc), (suffix, img_path) = descriptions[i], image_paths[i]
+        pdf.add_page()
+        toc_entries.append((title, pdf.page_no()))
+        pdf.set_font("Arial", "B", 14)
+        pdf.cell(0, 10, title, ln=True)
+        pdf.set_font("Arial", size=11)
+        pdf.multi_cell(0, 8, desc)
+        pdf.image(img_path, x=10, y=40, w=180)
+
     tmp_path = "_tmp_report.pdf"
     pdf.output(tmp_path)
 
-    # Indholdsfortegnelse separat
     toc_pdf = FPDF()
     toc_pdf.set_auto_page_break(auto=True, margin=15)
     toc_pdf.alias_nb_pages()
     add_table_of_contents(toc_pdf, toc_entries)
     toc_stream = BytesIO(toc_pdf.output(dest='S').encode("latin1"))
 
-    # Merge: Forside + ToC + resten
     merger = PdfMerger()
     merger.append(tmp_path, pages=(0, 1))
     merger.append(toc_stream)
@@ -223,4 +272,3 @@ def generate_pdf_report(customer_id):
     )
 
     return output_path
-
