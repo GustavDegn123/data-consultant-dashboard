@@ -25,7 +25,7 @@ from scripts.plots import geo_plots as gp
 
 REPORT_DIR = "generated_reports"
 os.makedirs(REPORT_DIR, exist_ok=True)
-LOGO_PATH = Path("utills/klarlogo.jpeg")
+LOGO_PATH = Path("utils/klarlogo.jpeg")
 
 def generate_figures(df, prefix):
     image_paths = []
