@@ -1,50 +1,29 @@
+# scripts/plots/product_plots.py
 import plotly.express as px
-import plotly.graph_objects as go
-import plotly.io as pio
-import pandas as pd
 
-def plot_bar_series(data, title, xlabel, ylabel, save_path=None):
-    # Konverter Series til DataFrame hvis nødvendigt
-    if isinstance(data, pd.Series):
-        data = data.reset_index()
-        data.columns = [xlabel, ylabel]
+def top_product_categories(df, top_n=10):
+    df = df.dropna(subset=["product_category_name_danish"])
+    top = df["product_category_name_danish"].value_counts().nlargest(top_n)
 
-    # Konverter evt. Period-type til string
-    if pd.api.types.is_period_dtype(data[xlabel]):
-        data[xlabel] = data[xlabel].astype(str)
-
-    fig = px.bar(data, x=xlabel, y=ylabel, title=title)
-    fig.update_layout(template="plotly_white", xaxis_title=xlabel, yaxis_title=ylabel)
-
-    if save_path:
-        pio.write_image(fig, save_path, width=1000, height=600)
-
-    return fig
-
-def plot_trend(data, title, xlabel, ylabel, save_path=None):
-    fig = go.Figure()
-
-    # Sørg for at Month er str (Plotly + Kaleido kræver det)
-    if pd.api.types.is_period_dtype(data["Month"]):
-        data["Month"] = data["Month"].astype(str)
-
-    for name, group in data.groupby("Product_Name"):
-        fig.add_trace(go.Scatter(
-            x=group["Month"],
-            y=group["Sales_USD"],
-            mode="lines+markers",
-            name=name
-        ))
-
-    fig.update_layout(
-        title=title,
-        template="plotly_white",
-        xaxis_title=xlabel,
-        yaxis_title=ylabel,
-        legend_title="Produkt"
+    fig = px.bar(
+        top,
+        title=f"Top {top_n} mest solgte produktkategorier",
+        labels={"value": "Antal solgte", "index": "Kategori"},
     )
-
-    if save_path:
-        pio.write_image(fig, save_path, width=1000, height=600)
-
+    fig.update_layout(xaxis_title="Kategori", yaxis_title="Antal solgte")
     return fig
+
+# scripts/plots/product_plots.py
+def plot_avg_price_freight(df_avg):
+    fig = px.bar(
+        df_avg.melt(id_vars="product_category_name_danish", value_vars=["price", "freight_value"]),
+        x="product_category_name_danish",
+        y="value",
+        color="variable",
+        barmode="group",
+        title="Gennemsnitspris og fragt pr. produktkategori",
+        labels={"product_category_name_danish": "Kategori", "value": "Beløb (R$)", "variable": "Type"}
+    )
+    fig.update_layout(xaxis_tickangle=45)
+    return fig
+
