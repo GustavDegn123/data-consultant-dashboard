@@ -1,8 +1,62 @@
 import streamlit as st
 import pandas as pd
 
-# Konfiguration
-st.set_page_config(page_title="Knitter’s Delight Dashboard", layout="wide")
+# Sæt layout og sideopsætning
+st.set_page_config(page_title="Knitter's Delight Dashboard", layout="wide")
+
+# --- CSS styling ---
+st.markdown("""
+    <style>
+    .stApp {
+        background-color: #f5f5f5;
+    }
+    div[data-testid="stMetric"] {
+        background-color: white;
+        border-radius: 16px;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }   
+    div[data-testid="stMetric"]:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    .block-container h1, .block-container h2, .block-container h3 {
+        margin-top: 1rem;
+    }
+    .block-container {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .element-container:has(div.plotly-graph-div) {
+        padding: 10px;
+        background-color: white;
+        border-radius: 16px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        margin: 10px 0;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .element-container:has(div.plotly-graph-div):hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    /* Add styling for dataframes to match other visualizations */
+    .element-container:has(div[data-testid="dataframe"]) {
+        padding: 10px;
+        background-color: white;
+        border-radius: 16px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        margin: 10px 0;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .element-container:has(div[data-testid="dataframe"]):hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 
 # --- Importér egne moduler ---
 from scripts.load_olist_data import (
@@ -81,14 +135,11 @@ else:
     st.sidebar.markdown(f"**Periode:** {start_date} → {end_date}")
 
 # Flyt dette udenfor if/else
-# Automatisk granularitet baseret på længden af perioden
-days_diff = (end_date - start_date).days
-if days_diff <= 7:
-    granularity = "Dag"
-elif days_diff <= 90:
-    granularity = "Måned"
-else:
-    granularity = "År"
+granularity = st.sidebar.radio(
+    "Vælg granularitet",
+    ["Dag", "Måned", "År"],
+    index=1  # f.eks. standard = Måned
+)
 
 # Vis som tekst i sidebar
 st.sidebar.markdown(f"**Granularitet valgt:** {granularity}")
@@ -112,10 +163,11 @@ review_df = review_df[review_df["order_id"].isin(df["order_id"])]
 geo = load_geolocation()[["geolocation_zip_code_prefix", "geolocation_lat", "geolocation_lng"]]
 
 if page == "📊 Dashboard":
-    st.title("📊 Overblik – Knitter’s Delight")
+    st.title("📊 Overblik – Knitter's Delight")
 
     kpis = compute_dashboard_kpis(df, delivery_df, customers, sellers, review_df)
 
+    # Visuelle KPI-kort
     col1, col2, col3, col4 = st.columns(4)
     col1.metric("📦 Antal ordrer", f"{kpis['num_orders']:,}")
     col2.metric("🚒 Solgte produkter", f"{kpis['num_products']:,}")
@@ -123,11 +175,12 @@ if page == "📊 Dashboard":
     col4.metric("🌟 Gennemsnitlig review-score", f"{kpis['avg_review']:.2f}")
 
     col5, col6, col7, col8 = st.columns(4)
-    col5.metric("🚚 Gennemsnitlig leveringstid (bestilling → modtagelse)", f"{kpis['avg_delivery']:.1f} dage")
-    col6.metric("📦 Gennemsnitlig fragtomkostning pr. ordre", f"{kpis['avg_freight']:.2f} DKK")
+    col5.metric("🚚 Gennemsnitlig leveringstid", f"{kpis['avg_delivery']:.1f} dage")
+    col6.metric("📦 Gennemsnitlig fragtomkostning", f"{kpis['avg_freight']:.2f} DKK")
     col7.metric("👥 Antal kunder", f"{kpis['num_customers']:,}")
     col8.metric("🏬 Antal sælgere", f"{kpis['num_sellers']:,}")
 
+    # Sektion: Ordrer og betalinger
     st.markdown("### 📅 Ordrer og betalinger")
     col9, col10 = st.columns(2)
     with col9:
@@ -135,18 +188,18 @@ if page == "📊 Dashboard":
     with col10:
         st.plotly_chart(plot_payment_distribution(payment_df), use_container_width=True)
 
-    st.markdown("### 🗺️ Kort og top kategorier")
-    geo = load_geolocation()[["geolocation_zip_code_prefix", "geolocation_lat", "geolocation_lng"]]
+    # Sektion: Kort og topkategorier
+    st.markdown("### 🗺️ Kort og topkategorier")
     geo_df = prepare_geo_data(customers, sellers, geo)
     geo_fig = plot_geo_map(geo_df)
+
     col11, col12 = st.columns([2, 1])
     with col11:
         st.plotly_chart(geo_fig, use_container_width=True)
     with col12:
         from scripts.plots.dashboard_plots import plot_top_categories
-        top_df = plot_top_categories(df)
-        st.markdown("#### 📋 Top 5 kategorier")
-        st.dataframe(top_df, use_container_width=True)
+        fig, top_df = plot_top_categories(df)
+        st.plotly_chart(fig, use_container_width=True)
 
 # --- Side 1: Salg & Produkter ---
 if page == "🛒 Salg & Produkter":
